@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Whipple]]></title>
   <link href="http://tomwhipple.com/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2012-11-03T18:39:28-07:00</updated>
+  <updated>2012-11-03T20:12:28-07:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Site updated...  Finally!]]></title>
+    <link href="http://tomwhipple.com/2012/11/updated-to-octopress/"/>
+    <updated>2012-11-03T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2012/11/updated-to-octopress</id>
+    <content type="html"><![CDATA[<p>Hey, I&#8217;m still alive!</p>
+
+<p>Seriously though, the site has been updated to use <a href="http://octopress.org">Octopress</a>, and is how hosted on <a href="http://pages.github.com">GitHub pages</a>.</p>
+
+<p>Content is typically written in raw text (markdown). The framework generates static HTML from these files, which can be served on any web server. The result is that all the site admin headaches for systems like <a href="http://wordpress.org">Wordpress</a> are eliminated. And, if the site is served via GitHub, authentication is handled via SSH keys.</p>
+
+<p>Can it get any easier than that?</p>
+
+<p>BTW: If you&#8217;re really curious, the source for this site is <a href="https://github.com/tomwhipple/octopress/tree/tomwhipple">on GitHub</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Etiquette for Recruiters]]></title>
@@ -317,17 +334,6 @@ So, I would go back to 1st generation iPhone if I could, but the screen is crac
 After my own server died a few months ago, I finally have my website moved over to laughingsquid.net. As far as I can tell everything is now back up and running.
 <p align="center"> <a href="http://www.laughingsquid.com"><img src="http://www.laughingsquid.net/images/powered_white.gif" alt="Powered by Laughing Squid" width="150" height="50" border="0" /></a></p>
 Most of the outage has been due to my own laziness. I haven&#8217;t been motivated to keep the site up lately. But, Laughing Squid seems to have very responsive servers, which is far more than I can say about godaddy.com.
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Fires]]></title>
-    <link href="http://tomwhipple.com/2007/10/fires/"/>
-    <updated>2007-10-22T00:00:00-07:00</updated>
-    <id>http://tomwhipple.com/2007/10/fires</id>
-    <content type="html"><![CDATA[I returned to SoCal today to find it hot and burning. Quite a change from the 1-2 inches of snow on the ground in Denver. We flew over one of the fires where more than 100 homes have burned. The smoke from another fire (near Santa Clarita, I think) fills the whole Ventura/Oxnard area. In daylight, there is a strange orange glow and this evening the sun disappeared about 40 minutes early. It just sort of faded into red and then was gone. The smoke comes in to all of the buildings at work and my apartment, making my eyes itch.
-
-I didn&#8217;t get any pictures today, but maybe tomorrow.
 ]]></content>
   </entry>
   

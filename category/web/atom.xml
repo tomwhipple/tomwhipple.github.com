@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Web | Tom Whipple]]></title>
   <link href="http://tomwhipple.com/category/web/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2012-11-03T18:39:28-07:00</updated>
+  <updated>2012-11-03T20:12:28-07:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Site updated...  Finally!]]></title>
+    <link href="http://tomwhipple.com/2012/11/updated-to-octopress/"/>
+    <updated>2012-11-03T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2012/11/updated-to-octopress</id>
+    <content type="html"><![CDATA[<p>Hey, I'm still alive!</p>
+
+<p>Seriously though, the site has been updated to use <a href="http://octopress.org">Octopress</a>, and is how hosted on <a href="http://pages.github.com">GitHub pages</a>.</p>
+
+<p>Content is typically written in raw text (markdown). The framework generates static HTML from these files, which can be served on any web server. The result is that all the site admin headaches for systems like <a href="http://wordpress.org">Wordpress</a> are eliminated. And, if the site is served via GitHub, authentication is handled via SSH keys.</p>
+
+<p>Can it get any easier than that?</p>
+
+<p>BTW: If you're really curious, the source for this site is <a href="https://github.com/tomwhipple/octopress/tree/tomwhipple">on GitHub</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[On Search Engine Optimization]]></title>

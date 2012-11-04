@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software | Tom Whipple]]></title>
   <link href="http://tomwhipple.com/category/software/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2012-11-03T18:39:28-07:00</updated>
+  <updated>2012-11-03T20:12:28-07:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Site updated...  Finally!]]></title>
+    <link href="http://tomwhipple.com/2012/11/updated-to-octopress/"/>
+    <updated>2012-11-03T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2012/11/updated-to-octopress</id>
+    <content type="html"><![CDATA[<p>Hey, I'm still alive!</p>
+
+<p>Seriously though, the site has been updated to use <a href="http://octopress.org">Octopress</a>, and is how hosted on <a href="http://pages.github.com">GitHub pages</a>.</p>
+
+<p>Content is typically written in raw text (markdown). The framework generates static HTML from these files, which can be served on any web server. The result is that all the site admin headaches for systems like <a href="http://wordpress.org">Wordpress</a> are eliminated. And, if the site is served via GitHub, authentication is handled via SSH keys.</p>
+
+<p>Can it get any easier than that?</p>
+
+<p>BTW: If you're really curious, the source for this site is <a href="https://github.com/tomwhipple/octopress/tree/tomwhipple">on GitHub</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Flaws of Linux ...]]></title>
@@ -67,17 +84,6 @@
 <p>One begins to wonder what is going on over at Apple. If their product is going to live up to its promise, these bugs <em>must</em> be fixed. If not, Apple is going to lose its position in the phone market to cheaper competitors that are just as buggy, in the same way that Apple gave up the OS market to Microsoft; a crappy but cheaper system winning out over a better designed but somewhat behind the curve OS + hardware combination.</p>
 
 <p>So, I would go back to 1st generation iPhone if I could, but the screen is cracked so that isn't really an option.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Perl Modules released]]></title>
-    <link href="http://tomwhipple.com/2007/03/perl_release/"/>
-    <updated>2007-03-05T00:00:00-08:00</updated>
-    <id>http://tomwhipple.com/2007/03/perl_release</id>
-    <content type="html"><![CDATA[<p>I wrote some Perl modules a while back and have always meant to release them to the general community. I haven't had time to do all that is required to get them up to <a href="http://search.cpan.org">CPAN</a> yet (namely write tests), but here is the first step. See the "<a href="http://tomwhipple.com/software/">Software by Tom</a>" page.</p>
-
-<p>I expect to release one or two more additional projects soon.</p>
 ]]></content>
   </entry>
   
