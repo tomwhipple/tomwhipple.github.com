@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Software | Tom Whipple]]></title>
+  <link href="http://tomwhipple.com/category/software/atom.xml" rel="self"/>
+  <link href="http://tomwhipple.com/"/>
+  <updated>2012-11-03T18:01:58-07:00</updated>
+  <id>http://tomwhipple.com/</id>
+  <author>
+    <name><![CDATA[Tom Whipple]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Flaws of Linux ...]]></title>
+    <link href="http://tomwhipple.com/2009/08/flaws-of-linux/"/>
+    <updated>2009-08-05T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2009/08/flaws-of-linux</id>
+    <content type="html"><![CDATA[<p>This, in a nutshell, is why Linux will <em>never</em> take over.</p>
+
+<p><a href="http://xkcd.com/619/"><img src="http://imgs.xkcd.com/comics/supported_features.png" height="326" width="324" /></a></p>
+
+<p>[<a href="http://xkcd.com/619/">xkcd.com</a>]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Walki-Talki.com London tour available on the App Store]]></title>
+    <link href="http://tomwhipple.com/2009/07/walki-talkicom-london-tour-available-on-the-app-store/"/>
+    <updated>2009-07-03T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2009/07/walki-talkicom-london-tour-available-on-the-app-store</id>
+    <content type="html"><![CDATA[<p style="text-align: center"><img src="http://walki-talki.com/wordpress/wp-content/uploads/2009/07/london_iphone.png" title="London App screen shot" alt="London App screen shot" height="384" width="200" /></p>
+
+
+<p>Last night I learned that <a href="http://www.walki-talki.com">walki-talki.com</a>'s walking tour of London was just approved by Apple for release and <a href="itms://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=320626439&amp;mt=8&amp;s=143441">posted to the App Store</a>. I won't re-post all of the details (<a href="http://walki-talki.com/wordpress/2009/07/04/walki-talki-releases-london-tour-for-the-iphone/">you can check them out here</a>). But I will say that it's about time!! Apple has taken nearly 2 weeks to approve this app, but has not yet approved our Amsterdam tour, despite it being submitted a month earlier! Anyway, enough griping. We are very pleased to be making progress.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iPhone 2.1 software: FAIL]]></title>
+    <link href="http://tomwhipple.com/2008/09/iphone-21-software-fail/"/>
+    <updated>2008-09-13T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2008/09/iphone-21-software-fail</id>
+    <content type="html"><![CDATA[<p>So far, the new iPhone software released on Friday doesn't look good. I've had two problems in as many days.</p>
+
+<p>Yesterday, the bluetooth headset did not deactivate after a call ended until after I unlocked the phone with the slider dodad.</p>
+
+<p>But the worst happened today. I was driving down the PCH enjoying the day and a listening to a podcast when my phone decided to stop playing the podcast and dial a friend. At first I thought he was calling me, but after an awkward confused silence I realized what had happened. Needless to say, this is very bizarre and totally unacceptable. Imagine being in the middle of a personal conversation when your phone decides to call a random contact!!</p>
+
+<p>So, 2.0.1 is still looking pretty good.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Don't buy an iPhone 3G yet ...]]></title>
+    <link href="http://tomwhipple.com/2008/09/dont-buy-an-iphone-3g-yet/"/>
+    <updated>2008-09-06T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2008/09/dont-buy-an-iphone-3g-yet</id>
+    <content type="html"><![CDATA[<p>... and if you do, don't upgrade to 2.0.2 if you can help it.</p>
+
+<p>I upgraded to the 3G about 2 weeks before 2.0.2 was released, then upgraded the software shortly after it was available, so I don't know which to blame for the problems I have.</p>
+
+<p>In addition to the 3G call dropping and other issues that seem to be more AT&amp;T's problem than Apple's, there are major problems with the stability of the software. It hangs unexpectedly at inconvenient times, and apps seem to crash with alarming frequency. We have come to count on Apple for products that "just work" but this version seems to break that confidence. A couple of examples: The SMS application seems to take <em>forever</em> to load (ok it's just a few seconds, but enough time to be annoying). The contact manager seems to suffer from the same problem, plus it can stop responding and hang for several seconds instead of scrolling through the contacts as expected. Other built in apps (such as Safari) seem to have the same problem. In a final bit of irony, <a href="http://www.apple.com/">www.apple.com</a> is almost impossible to use from the iPhone (good luck trying to find an Apple store on the iPhone).</p>
+
+<p>One begins to wonder what is going on over at Apple. If their product is going to live up to its promise, these bugs <em>must</em> be fixed. If not, Apple is going to lose its position in the phone market to cheaper competitors that are just as buggy, in the same way that Apple gave up the OS market to Microsoft; a crappy but cheaper system winning out over a better designed but somewhat behind the curve OS + hardware combination.</p>
+
+<p>So, I would go back to 1st generation iPhone if I could, but the screen is cracked so that isn't really an option.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Perl Modules released]]></title>
+    <link href="http://tomwhipple.com/2007/03/perl_release/"/>
+    <updated>2007-03-05T00:00:00-08:00</updated>
+    <id>http://tomwhipple.com/2007/03/perl_release</id>
+    <content type="html"><![CDATA[<p>I wrote some Perl modules a while back and have always meant to release them to the general community. I haven't had time to do all that is required to get them up to <a href="http://search.cpan.org">CPAN</a> yet (namely write tests), but here is the first step. See the "<a href="http://tomwhipple.com/software/">Software by Tom</a>" page.</p>
+
+<p>I expect to release one or two more additional projects soon.</p>
+]]></content>
+  </entry>
+  
+</feed>

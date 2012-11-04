@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: notes | Tom Whipple]]></title>
+  <link href="http://tomwhipple.com/category/notes/atom.xml" rel="self"/>
+  <link href="http://tomwhipple.com/"/>
+  <updated>2012-11-03T18:01:58-07:00</updated>
+  <id>http://tomwhipple.com/</id>
+  <author>
+    <name><![CDATA[Tom Whipple]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[iPhone code signing problems]]></title>
+    <link href="http://tomwhipple.com/2008/11/iphone-code-signing-problems/"/>
+    <updated>2008-11-11T00:00:00-08:00</updated>
+    <id>http://tomwhipple.com/2008/11/iphone-code-signing-problems</id>
+    <content type="html"><![CDATA[<p><em>UPDATE: If you think it should work and it continues to cause problems, use the windows solution (i.e. reboot everything) and do a clean build. Here is a more current <a href="http://www.24100.net/2009/02/iphone-sdk-mobile-provisioning-0xe800003a-0xe8000001/">discussion</a>.</em></p>
+
+<p>As many developers have figured out by now, iPhone code signing is unnecessarily difficult. To make matters worse, it doesn't sound like Apple is very responsive to their developers. (In my case they have yet to get back to me after two days.) A couple of key points:</p>
+
+<ol>
+    <li>In the main XCode screen, highlight Targets-&gt;AppName, and click the info button. Under Build, the "Code Signing Identity" must <em>exactly</em> match the certificate name from the certificate manager.An Open Question: Does this value get inherited from the project values?</li>
+    <li>The Resources-&gt;info.plist file must have the correct app id. In my case
+com.tomwhipple.${PRODUCT_NAME:identifier}</li>
+</ol>
+
+
+<p>A couple of more detailed discussions:</p>
+
+<ul>
+    <li><a href="http://www.talentgrouplabs.com/blog/archive/2008/08/21/preflightingapplication-errors-0xe8000001-and-others.aspx">24100.net</a> (very detailed and helpful)</li>
+    <li><a href="http://discussions.apple.com/thread.jspa?threadID=1721273&amp;tstart=0">Apple</a> (a developer discussion thread)</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Configuring CVS for Apple's XCode projects]]></title>
+    <link href="http://tomwhipple.com/2008/10/configuring-cvs-for-apples-xcode-projects/"/>
+    <updated>2008-10-11T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2008/10/configuring-cvs-for-apples-xcode-projects</id>
+    <content type="html"><![CDATA[<p><em>UPDATE: It seems that most of the nonsense described below is fixed in XCode 3.1.2. However it is still necessary to import the project and then check it out again.</em></p>
+
+<p>Apple ostensibly has integrated CVS &amp; SVN as version control into XCode. But in XCode 3.1.1 the CVS integration is very poor. The problem seems to be the project/build directory where XCode keeps binaries. This directory appears to be generated from all the other files, so the solution seems to be to leave it out of CVS.</p>
+
+<p>These steps seem to work:</p>
+
+<ol>
+    <li>Make sure the repository is set up. (See <a href="http://developer.apple.com/internet/opensource/cvsoverview.html">Apple's instructions</a> or better yet, the <a href="http://ximbiot.com/cvs/manual/">CVS manual</a>) This includes defining the repository under SCM in XCode.</li>
+    <li>Create the project in a temporary directory as normal in XCode.</li>
+    <li>Go to <strong>SCM&gt;Configure SCM for this project</strong>. Choose your repository and click OK.</li>
+    <li>Go to <strong>Build&gt;Clean All Targets</strong>.</li>
+    <li>Close the project window.</li>
+    <li>Go to the project directory in the Finder and delete the contents of the "build" directory.</li>
+    <li>In XCode, go to <strong>SCM&gt;Repositories</strong> tool.</li>
+    <li>Click "Import" and import the temporary project directory into CVS.</li>
+    <li>Click "Checkout" and choose the directory where you will do your work. (This is NOT the temporary project directory you created in step 2.)</li>
+    <li>XCode will ask you if you want to open the project when it is done with the checkout. If the checkout directory structure looks good, you should delete the temporary directory.</li>
+</ol>
+
+
+<p>NOTE: If some subset of the builds directory shows up under the SCM tool on the left of the project tab, go to <strong>SCM&gt;Refresh Entire Project </strong>BEFORE the build directory gets committed.
+NOTE 2: If the build directory gets committed by mistake, delete it from the repository, the local directory structure, and the corresponding entry in the projectdir/CVS/Entries file.</p>
+]]></content>
+  </entry>
+  
+</feed>

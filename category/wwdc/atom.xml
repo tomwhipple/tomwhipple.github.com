@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: WWDC | Tom Whipple]]></title>
+  <link href="http://tomwhipple.com/category/wwdc/atom.xml" rel="self"/>
+  <link href="http://tomwhipple.com/"/>
+  <updated>2012-11-03T18:01:58-07:00</updated>
+  <id>http://tomwhipple.com/</id>
+  <author>
+    <name><![CDATA[Tom Whipple]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[WWDC Party & Day 5]]></title>
+    <link href="http://tomwhipple.com/2009/06/wwdc-party-day-5/"/>
+    <updated>2009-06-12T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2009/06/wwdc-party-day-5</id>
+    <content type="html"><![CDATA[<p>The party last night was great! Cake (the band, not the food) played for us for a little more than an hour. I took some pictures, but iPhoto is crashing when I try to download them. (Hey Apple, what's up with that?) It was a true geek party in that the ratio of men to women was about 100:1. One woman actually took a picture of the huge line for the men's room. (Needless to say, there were no lines for the women's.)</p>
+
+<p>This morning I focused on fixing bugs in our app, both serious and trivial. I got some great advice on how to properly design the internals of the application to take full advantage of Apple's architecture. The Apple engineers have been an enormously valuable source of information from quick tips &amp; tricks to detailed answers.</p>
+
+<p>Today's lunchtime speaker was Neil Young (no, not the singer), CEO of <a href="http://blog.ngmoco.com/">Ngmoco</a>. This company was founded in March 2008, as a direct result of the release of the iPhoneOS 2.0, SDK &amp; App Store. It was interesting to hear how quickly they were able to put the whole thing together and begin earning revenue.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WWDC Day 4: Lots of good stuff]]></title>
+    <link href="http://tomwhipple.com/2009/06/wwdc-day-4-lots-of-good-stuff/"/>
+    <updated>2009-06-11T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2009/06/wwdc-day-4-lots-of-good-stuff</id>
+    <content type="html"><![CDATA[<p>Wow. We covered a lot of good material today. From advanced debugging techniques to recommendations for best practices in app design it was all very helpful, though again quite boring to a non-developer audience.</p>
+
+<p>The lunchtime talk was about a <a href="http://www.moonviews.com/">techno-archeology project</a> is using Macs to reconstruct moon image data from original NASA analog recordings. The central problem they experienced is that although the media is in good shape, there were no tape machines capable of reading it! Fortunately a couple of units were found in storage on military facilities and were able to be rebuilt for the task.</p>
+
+<p>I'll keep this one short as the next presentation is starting now. After this it's party time!!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WWDC: How not to do marketing ...]]></title>
+    <link href="http://tomwhipple.com/2009/06/wwdc-how-not-to-do-marketing/"/>
+    <updated>2009-06-10T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2009/06/wwdc-how-not-to-do-marketing</id>
+    <content type="html"><![CDATA[<p>Ok, if you are going to hand out cards inviting all the conference attendees to a "party" (i.e. captive demo) and promise free drinks &amp; appetizers, it is a good idea to make sure you have enough free drinks and appetizers to go around. After all, if you can't organize a party, how can I possibly believe that you can build a functional product.</p>
+
+<p>I'm talking to you Parallez &amp; Appcellerator (or however you spell it).</p>
+
+<p>We'll see if tonight is any better ...</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WWDC Day 3: Geek details & iPhone orchestra]]></title>
+    <link href="http://tomwhipple.com/2009/06/wwdc-day-3-geek-details-iphone-orchestra/"/>
+    <updated>2009-06-10T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2009/06/wwdc-day-3-geek-details-iphone-orchestra</id>
+    <content type="html"><![CDATA[<p>Today brought a lot of technical details which were important but very boring to the casual audience. I spent a good chunk of time in the iPhone lab, talking to Apple engineers and others while fixing bugs in our app. Plus, one of the sessions gave me a bunch of ideas to improve the performance and look of the app. Hopefully we can start getting them approved very soon!</p>
+
+<p>The highlight of the day from a theatrical perspective was the lunchtime talk given by Dr. Ge Wang, CTO of <a href="http://www.smule.com/">Smule</a>. The apps produced by Smule are audio related, from the sonic lighter (a flame that you can blow out by blowing on the iPhone microphone) to various instruments that are played by pressing various "holes" or sliders on the iPhone screen and blowing into the microphone. There are a lot of other neat features, like being able to hear &amp; see music played by others across the world, but I won't go into all the details.</p>
+
+<p>The interesting part of this story is that in less than a year, one of their apps was downloaded over one million times. At $0.99 each, less 30% to Apple, that works out to be $700,000 from a single app. Not too bad for a company that didn't exist a year ago. So, it seems clear that if you can produce a compelling app, there is money to be made. The question is then what makes a compelling app. Clearly a flame that "burns" on the screen has no useful value, yet many people paid for it. Of course most in the audience were no doubt thinking along the same line.</p>
+
+<p>Nonetheless, we were treated to a performance by the Stanford Mobile Phone Orchestra (or MoPho). It was ... interesting. I took some photos, but they are unbelievably bad. Perhaps if I had an iPhone 3GS they would have turned out.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[WWDC Day 2: Games, Networking and more]]></title>
+    <link href="http://tomwhipple.com/2009/06/day-2-games-networking-and-more/"/>
+    <updated>2009-06-09T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2009/06/day-2-games-networking-and-more</id>
+    <content type="html"><![CDATA[<p>Today, I attended a session on networking and a couple of game overview sessions. The networking session was interesting, though not in a way that any non-developers would care about. The games sessions were interesting, since I haven't done much in the way of game development in the past, though this may change.</p>
+
+<p>The capabilities of the new OS, especially with the new hardware are absolutely fantastic. We've had accelerometer control since forever, which is just neat. Now, we add peer to peer gaming via bluetooth or WiFi so that users can have multi-player games across the room or across the world. The new phone adds a GPU, allowing amazing video effects. The addition of OpenAL means that 3D sound can be part of the game experience as well. (There's also a magnetometer/compass, though it isn't clear how that helps game development, but I'm sure someone will do something cool with it.) In one of the sessions yesterday it was mentioned that a high percentage of the apps up on the App Store are games. It is clear that Apple recognizes that the iPhone is not just a smart phone, but is poised to become a leading mobile game platform as well.</p>
+
+<p>In many of the sessions, I find myself pulling out my iPhone or MacBook to jot down another idea for an application or product. Apple has provided developers with a lot of tools to express their creativity without having to keep track of minor details. It makes the idea of going back to the day job even more depressing, since I know that my employer has no incentive or motivation to explore these technologies, even though they could be tremendously useful. (No doubt there will be a post on this topic at some point in the future, though probably not soon.)</p>
+
+<p>On an unrelated note, I was able to fix a serious bug in an app I have in development after talking to some of the Apple engineers in a lab. And, we don't even have to mandate 3.0 for our users as I first feared. Now, I just have to re-submit the fixed version and then off to find a party...</p>
+]]></content>
+  </entry>
+  
+</feed>

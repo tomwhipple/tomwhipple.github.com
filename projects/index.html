@@ -1,0 +1,285 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Past Projects - Tom Whipple</title>
+  <meta name="author" content="Tom Whipple">
+
+  
+  <meta name="description" content="Past Projects Multi-resolution analysis of contours for classification
+For my M.S. research I analyzed how to learn multi-resolution distribution of &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://tomwhipple.com/projects/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Tom Whipple" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-10334448-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1 style="font-family:arial,helvetica,sans-serif; font-weight:bold;">
+	<a href="/"><font color="green">Tom</font> <font color="blue">Whipple</font></a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:tomwhipple.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Main</a></li>
+  <li><a href="/archives">Archive</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article role="article">
+  
+  <header>
+    <h1 class="entry-title">Past Projects</h1>
+    
+  </header>
+  
+  <ul>
+
+		<li><a name="multires_contour"></a>
+<h2>Multi-resolution analysis of contours for classification</h2>
+<p>For my M.S. research I analyzed how to learn multi-resolution distribution of contours. The idea is that it makes sense to make classification decisions based on the overall shape of an object and ignore the details. However, in other situations, those details are important. The two main challenges were: 1) choosing a representation for the shapes that allows comparison and manipulation without introducing dependencies on the particular representation, and 2) finding an appropriate trade-off between global and local information.</p>
+<center><table border=0 cellspacing=0 cellpadding=0 width="70%">
+<tr><td align="center"><img src="/img/multires.png" /></td></tr>
+<tr><td class="caption">A multi-resolution decomposition of the outline of a maple leaf. Each outline shows the addition of one level of detail. When does the blob become a maple leaf?</td></tr>
+</table>
+</center>
+
+<p>I am continuing to refine and document some of the Matlab code for this project and plan to make it available on the web.</p>
+
+</li>
+
+	<li><a name="portland_proj"></a>
+	<h2>Portland Test suite</h2>
+	The <a href="http://fredesktop.org">freedesktop.org</a> <a href="http://portland.freedesktop.org">Portland project</a> is an initiative to create a unified desktop API across the various combinations of Linux desktop environments and distributions. The <a href="http://portland.freedesktop.org/xdg-utils-1.0/">xdg-utils</a> are a set of command line utilities that work with as many <i>current</i> distributions as possible, since the time it takes to get them into distributions is too long. To that end, Intel hired me to develop a <a href="http://portland.freedesktop.org/wiki/TestSuite">test suite</a> to verify the xdg-utils functionality.
+	
+	</li><li>
+<a name="size_function"></a>
+<h2>Size Functions for Contour Recognition</h2>
+<p>Size functions attempt to describe the characteristic features of a shape in such a way that if only part of the shape is visible, the shape can still be recognized. An appropriately chosen size function can be rotation invariant and normalized to remove scaling.</p>
+
+<center><table border=0 cellspacing=0 cellpadding=0 width="70%">
+<tr>
+<td align="center" cellspacing=10><img src="/img/Bthin.png"/></td><td align=center><img src="/img/Bsize.png"/></td></tr>
+<tr><td colspan=2 class="caption">A size function plot (right) can be computed for a contour. The plot describes the curvature and connectedness of the shape. <a href="http://vis.dm.unibo.it/sizefcts/sf.htm">More information about size functions is available on the website of the group that developed them.</a></td></tr>
+</table></center>
+
+<p>I initially investigated size functions for my undergraduate mathematics thesis. (I am grateful to <a href="http://www.math.ku.edu/~jmartin/">Jeremy Martin</a> for patiently advising it.) In subsequent work, I developed Matlab software to generate and compare size functions from character images in a few different ways with the intention of applying them to Optical Character Recognition (OCR) problems. My experimentation validates that size functions can be an effective way to compare outlines of shapes that can be described as a simple closed contour. However, they are not always as useful when comparing more complex figures.</p>
+
+</li>	
+	<li>
+<a name="auto_joystick"></a>
+	<h2>Automated Obstacle Avoidance for a Tele-Operated Robot</h2>
+<p>The goal of this project is to enable a human operator to have a high level of manual control of a robot, while not having to worry about endangering the robot. The project was a part of a course on robotics taught by <a href="http://www-users.cs.umn.edu/~stergios/">Stergios Roumeliotis</a>.</p>
+<br/>
+<center><table border=0 cellspacing=0 cellpadding=0 width="85%">
+		<tr><td align="center"><img src="/img/robot_path.png" /></td></tr>
+		<tr><td class=caption>The path taken by the robot as it navigates the 5th floor of the <a href="http://onestop.umn.edu/Maps/EECSci/EECSci-photo.html">Computer Science building</a>.
+				There are several people standing around, causing additional noise. Note that the robot avoids all obstacles, then returns to its target course, which is near horizontal in this view.
+		</td></tr>
+</table></center>
+<br/>
+<p>The project used the Aria robot API (C++) to control an ActiveMedia Pioneer robot equipped with a SICK laser range finder. The robot&#8217;s position is tracked using its wheel encoders, which is a notoriously inaccurate method. However, since obstacle avoidance is meant as an assisting technology, this level of error is acceptable.</p>
+</li>
+<li>
+<a name="solarcar"></a>
+<h2>Solar Vehicle Racing</h2>
+<img align="right" src="/img/borealis3_front_right.jpg" style="padding: 5px;" />
+<p>Every two years teams of undergraduate students from around the US and Canada design and build cars powered exclusively by the sun and race them across the country. I was part of the team that built the <a href="http://www.umn.edu/~umnsvp/">University of Minnesota&#8217;s Borealis 3 car</a>, and was a race strategist for the 2005 <a href="http://www.americansolarchallenge.org/">North American Solar challenge</a>. The Minnesota team was runner up by a narrow margin of 15 minutes out of a 54 hour, 2500 mile race. Minnesota won first place at the <a href="http://www.formulasun.org/fsgp/event/fsgp2005/history/index.html">2005 Formula Sun Grand Prix</a>.</p>
+<h3>Solar Racing strategy</h3>
+<p>I was one of two members of the race strategy team. The strategists are responsible for controlling the car&#8217;s energy output via its speed. Of course, the overall race goal is to be the first to cross the finish line. However, in order to do this, a successful team must carefully manage how much energy remains in the car&#8217;s battery. When the car crosses the finish line, the battery will ideally be empty; if not, the car could have driven faster and crossed the line sooner. But, if the battery is drained too quickly the car must slow down and is at risk to be caught by competitors. Complicating the situation is the fact that the power required to drive at any given speed is proportional to the cube of that speed. (This is why you burn more gas driving 80 vs. 70 than 70 vs. 60, and why speeds were regulated to 55MPH during the oil crisis of the 1970&#8217;s.)</p>
+
+<br/>
+<center><table border=0 cellspacing=0 cellpadding=0 width="85%">
+		<tr>
+			<td width="45%"><img align="center" src="/img/solar_pdrive.png" /></td>
+			<td rowspan=2 width="10%">&nbsp;</a>
+			<td width="45%"><img align="center" src="/img/solar_strategy.png" /></td></tr>
+		<tr align="top">
+			<td class=caption>Power required to drive vs. Road Speed</td>
+			<td class=caption>Battery energy (predicted and observed) vs. Time for a two day stage of the race</td>
+		</tr>
+</table></center>
+<br/>
+<p>The strategist would like to set a target speed that is constant for as much of the race as possible. In an attempt to do this, we built mathematical models to aid in estimating how much power would be drawn from the battery. Power comes from the sun, so the models must account for the car&#8217;s position on the Earth, the time of day, and the direction of travel. The models must be able to be adjusted easily &#8220;on the fly,&#8221; since the biggest variable in a race day is the weather. Our models performed well, and we were able to stay close to our target battery charge level.</p>
+
+
+<h3>Embedded software development</h3>
+
+<p>Borealis 3 has a digital control system based on Freescale (formerly Motorola) MC68HC908 microprocessors. The various circuits communicate with an automotive grade bus (BDLC). Since this was Minnesota&#8217;s first car to have all of its control software written in C, I spent much time writing and debugging the bus subsystem. I also wrote the software responsible for controlling the car&#8217;s motor. Data from the bus was forwarded via a radio link to the chase van where the strategists (who also happened to be responsible for creating most of the control logic) could monitor the car. Since all of the telemetry was stored in a MySQL database, we could look back at the data to diagnose problems if necessary.</p>
+
+
+
+  
+    <footer>
+      
+      
+        <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tomwhipple.com/projects/index.html" data-via="tommwhipple" data-counturl="http://tomwhipple.com/projects/index.html" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+      
+    </footer>
+  
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2011/05/etiquette-for-recruiters/">Etiquette for Recruiters</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2009/08/on-search-engine-optimization/">On Search Engine Optimization</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2009/08/announcing-smartovation-technologies/">Announcing Smartovation Technologies!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2009/08/flaws-of-linux/">Flaws of Linux ...</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2009/07/walki-talkicom-london-tour-available-on-the-app-store/">Walki-Talki.com London tour available on the App Store</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("tommwhipple", 2, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/tommwhipple" class="twitter-follow-button" data-show-count="false">Follow @tommwhipple</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2006 - 2012 Tom Whipple. All rights reserved.
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Cmd - easy way to do piped opening of a command.</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:root@localhost" />
+</head>
+
+<body style="background-color: white">
+
+<p><a name="__index__"></a></p>
+<!-- INDEX BEGIN -->
+
+<ul>
+
+	<li><a href="#name">NAME</a></li>
+	<li><a href="#synopsis">SYNOPSIS</a></li>
+	<li><a href="#description">DESCRIPTION</a></li>
+	<ul>
+
+		<li><a href="#constructor_arguments">Constructor arguments</a></li>
+		<li><a href="#methods">Methods</a></li>
+		<ul>
+
+			<li><a href="#execute__cmd_string__"><code>execute('cmd_string')</code></a></li>
+			<li><a href="#result__"><code>result()</code> </a></li>
+			<li><a href="#abort__"><code>abort()</code> </a></li>
+			<li><a href="#exit_status__"><code>exit_status()</code> </a></li>
+			<li><a href="#doit__cmd_string__"><code>doit('cmd_string')</code> </a></li>
+			<li><a href="#discard__"><code>discard()</code> </a></li>
+		</ul>
+
+	</ul>
+
+	<li><a href="#author">AUTHOR</a></li>
+</ul>
+<!-- INDEX END -->
+
+<hr />
+<p>
+</p>
+<h1><a name="name">NAME</a></h1>
+<p>Cmd - easy way to do piped opening of a command.</p>
+<p>
+</p>
+<hr />
+<h1><a name="synopsis">SYNOPSIS</a></h1>
+<p>Cmd is designed to be an easy way to fork a shell script or other program and process its 
+output as the command runs.</p>
+<p>A quick example:</p>
+<pre>
+        #!/usr/bin/perl</pre>
+<pre>
+        use Cmd;
+        my $sh = new Cmd;</pre>
+<pre>
+        $sh-&gt;execute('bin/some_command -very_verbose');</pre>
+<pre>
+        while ( $out_line = $sh-&gt;result ) { ## Note: This won't put result into $_ by default!
+                # process the result
+        }</pre>
+<p>
+</p>
+<hr />
+<h1><a name="description">DESCRIPTION</a></h1>
+<p>Cmd provides a way to process examine the output of a child shell WHILE IT IS RUNNING. This is desireable
+if the child script taks a long time to run and produces a lot of output. Using the backquote operator it 
+is theoretically possible to exhaust all of memory before the child script terminates. Cmd provides a workaround.</p>
+<p>
+</p>
+<h2><a name="constructor_arguments">Constructor arguments</a></h2>
+<pre>
+        fatal =&gt; a true value will cause die to be called if the command returns a non-zero exit code</pre>
+<pre>
+        log =&gt; a referance to a Log.pm object. Command results are logged at the 'info' level.</pre>
+<p>
+</p>
+<h2><a name="methods">Methods</a></h2>
+<p>
+</p>
+<h3><a name="execute__cmd_string__"><code>execute('cmd_string')</code></a></h3>
+<p>Fork and execute the given command
+
+</p>
+<p>
+</p>
+<h3><a name="result__"><code>result()</code></a></h3>
+<p>This is where the command results are grabbed from the filehandle.
+Return the top of the result que if called in a scalar context.
+Return the whole result que if called in an array context.
+Return undefined if the command has terminated.
+
+</p>
+<p>
+</p>
+<h3><a name="abort__"><code>abort()</code></a></h3>
+<p>Closes the filehandle to the command. 
+
+</p>
+<p>
+</p>
+<h3><a name="exit_status__"><code>exit_status()</code></a></h3>
+<p>Return the most recently executed command's exit status.
+
+</p>
+<p>
+</p>
+<h3><a name="doit__cmd_string__"><code>doit('cmd_string')</code></a></h3>
+<p>Do the command without returning a result. Returns 1 if command exits with 0.
+
+</p>
+<p>
+</p>
+<h3><a name="discard__"><code>discard()</code></a></h3>
+<p>Seek the end of the child's output buffer and resume processing there.
+
+</p>
+<p>
+</p>
+<hr />
+<h1><a name="author">AUTHOR</a></h1>
+<p>Tom Whipple &lt;<a href="mailto:mail@tomwhipple.com">mail@tomwhipple.com</a>&gt;
+
+</p>
+
+</body>
+
+</html>
