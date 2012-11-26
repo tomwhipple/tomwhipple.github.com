@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: software | Tom Whipple]]></title>
-  <link href="http://tomwhipple.com/category/software/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Android | Tom Whipple]]></title>
+  <link href="http://tomwhipple.com/category/android/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
   <updated>2012-11-26T09:57:03-08:00</updated>
   <id>http://tomwhipple.com/</id>

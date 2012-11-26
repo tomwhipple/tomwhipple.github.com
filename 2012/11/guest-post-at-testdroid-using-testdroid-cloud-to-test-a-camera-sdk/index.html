@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>WWDC: How not to do marketing ... - Tom Whipple</title>
+  <title>Guest post at Testdroid: Using Testdroid Cloud to test a camera SDK - Tom Whipple</title>
   <meta name="author" content="Tom Whipple">
 
   
-  <meta name="description" content="Ok, if you are going to hand out cards inviting all the conference attendees to a &#8220;party&#8221; (i.e. captive demo) and promise free drinks & &hellip;">
+  <meta name="description" content="The great people at Testdroid asked me to write a guest post about our experience with their product. Developing an SDK that makes heavy use of the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://tomwhipple.com/2009/06/wwdc-how-not-to-do-marketing/">
+  <link rel="canonical" href="http://tomwhipple.com/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -78,7 +78,7 @@
   
   <header>
     
-      <h1 class="entry-title">WWDC: How Not to Do Marketing ...</h1>
+      <h1 class="entry-title">Guest Post at Testdroid: Using Testdroid Cloud to Test a Camera SDK</h1>
     
     
       <p class="meta">
@@ -94,18 +94,20 @@
   
 
 
-<time datetime="2009-06-10T00:00:00-07:00" pubdate data-updated="true">Jun 10<span>th</span>, 2009</time>
+<time datetime="2012-11-26T07:38:00-08:00" pubdate data-updated="true">Nov 26<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content">Ok, if you are going to hand out cards inviting all the conference attendees to a &#8220;party&#8221; (i.e. captive demo) and promise free drinks &amp; appetizers, it is a good idea to make sure you have enough free drinks and appetizers to go around. After all, if you can&#8217;t organize a party, how can I possibly believe that you can build a functional product.
+<div class="entry-content"><p>The great people at <a href="http://testdroid.com">Testdroid</a> asked me to write a <a href="http://testdroid.com/testdroid/3524/guest-blog-post-using-testdroid-cloud-to-test-a-camera-sdk">guest post</a> about our experience with their product.</p>
 
-I&#8217;m talking to you Parallez &amp; Appcellerator (or however you spell it).
+<blockquote><p>Developing an SDK that makes heavy use of the camera is different from typical Android app development. First, developing an SDK means that we have to think about ease of integration with other apps. For example, things like XML layouts and <code>R.drawable</code> are not available to us, since we don&#8217;t want any unnecessary integration steps. Second, we are doing on-device computer vision, so we have a lot of highly optimized C and even some hand written assembly which must be compiled with the NDK and linked via JNI. And, if you&#8217;ve been fortunate to work with the Android native layer, you know that the toolchain is not quite as stable as the Java SDK. Finally, we&#8217;re doing frame by frame processing with the camera. Obviously, the camera is a piece of hardware that has been implemented differently by each manufacturer, so there are inevitably some differences in behavior if it is accessed in a way that is not quite as intended.</p>
 
-We&#8217;ll see if tonight is any better &#8230;
+<p><a href="http://testdroid.com/testdroid/3524/guest-blog-post-using-testdroid-cloud-to-test-a-camera-sdk">more</a></p></blockquote>
+
+<p>For small app developers, it is well worth the $100 or so to test on a bunch of different devices, even if you only run the tests once per major release. You&#8217;ll wish you had done it sooner.</p>
 </div>
 
 
@@ -128,12 +130,12 @@ We&#8217;ll see if tonight is any better &#8230;
   
 
 
-<time datetime="2009-06-10T00:00:00-07:00" pubdate data-updated="true">Jun 10<span>th</span>, 2009</time>
+<time datetime="2012-11-26T07:38:00-08:00" pubdate data-updated="true">Nov 26<span>th</span>, 2012</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/category/wwdc/'>WWDC</a>
+    <a class='category' href='/category/android/'>Android</a>, <a class='category' href='/category/programming/'>programming</a>, <a class='category' href='/category/software/'>software</a>
   
 </span>
 
@@ -142,7 +144,7 @@ We&#8217;ll see if tonight is any better &#8230;
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tomwhipple.com/2009/06/wwdc-how-not-to-do-marketing/" data-via="tommwhipple" data-counturl="http://tomwhipple.com/2009/06/wwdc-how-not-to-do-marketing/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://tomwhipple.com/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk/" data-via="tommwhipple" data-counturl="http://tomwhipple.com/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -155,10 +157,8 @@ We&#8217;ll see if tonight is any better &#8230;
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/2009/06/wwdc-day-3-geek-details-iphone-orchestra/" title="Previous Post: WWDC Day 3: Geek details & iPhone orchestra">&laquo; WWDC Day 3: Geek details & iPhone orchestra</a>
+        <a class="basic-alignment left" href="/2012/11/updated-to-octopress/" title="Previous Post: Site updated...  Finally!">&laquo; Site updated...  Finally!</a>
       
-      
-        <a class="basic-alignment right" href="/2009/06/wwdc-day-4-lots-of-good-stuff/" title="Next Post: WWDC Day 4: Lots of good stuff">WWDC Day 4: Lots of good stuff &raquo;</a>
       
     </p>
   </footer>

@@ -9,7 +9,7 @@
   <meta name="author" content="Tom Whipple">
 
   
-  <meta name="description" content="Hey, I&#8217;m still alive! Seriously though, the site has been updated to use Octopress, and is how hosted on GitHub pages. Content is typically &hellip;">
+  <meta name="description" content="The great people at Testdroid asked me to write a guest post about our experience with their product. Developing an SDK that makes heavy use of the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +75,48 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk/">Guest Post at Testdroid: Using Testdroid Cloud to Test a Camera SDK</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-26T07:38:00-08:00" pubdate data-updated="true">Nov 26<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The great people at <a href="http://testdroid.com">Testdroid</a> asked me to write a <a href="http://testdroid.com/testdroid/3524/guest-blog-post-using-testdroid-cloud-to-test-a-camera-sdk">guest post</a> about our experience with their product.</p>
+
+<blockquote><p>Developing an SDK that makes heavy use of the camera is different from typical Android app development. First, developing an SDK means that we have to think about ease of integration with other apps. For example, things like XML layouts and <code>R.drawable</code> are not available to us, since we don&#8217;t want any unnecessary integration steps. Second, we are doing on-device computer vision, so we have a lot of highly optimized C and even some hand written assembly which must be compiled with the NDK and linked via JNI. And, if you&#8217;ve been fortunate to work with the Android native layer, you know that the toolchain is not quite as stable as the Java SDK. Finally, we&#8217;re doing frame by frame processing with the camera. Obviously, the camera is a piece of hardware that has been implemented differently by each manufacturer, so there are inevitably some differences in behavior if it is accessed in a way that is not quite as intended.</p>
+
+<p><a href="http://testdroid.com/testdroid/3524/guest-blog-post-using-testdroid-cloud-to-test-a-camera-sdk">more</a></p></blockquote>
+
+<p>For small app developers, it is well worth the $100 or so to test on a bunch of different devices, even if you only run the tests once per major release. You&#8217;ll wish you had done it sooner.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -455,48 +497,6 @@ We&#8217;ll see if tonight is any better &#8230;
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2009/06/wwdc-day-3-geek-details-iphone-orchestra/">WWDC Day 3: Geek Details & iPhone Orchestra</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-06-10T00:00:00-07:00" pubdate data-updated="true">Jun 10<span>th</span>, 2009</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">Today brought a lot of technical details which were important but very boring to the casual audience. I spent a good chunk of time in the iPhone lab, talking to Apple engineers and others while fixing bugs in our app. Plus, one of the sessions gave me a bunch of ideas to improve the performance and look of the app. Hopefully we can start getting them approved very soon!
-
-The highlight of the day from a theatrical perspective was the lunchtime talk given by Dr. Ge Wang, CTO of <a href="http://www.smule.com/">Smule</a>. The apps produced by Smule are audio related, from the sonic lighter (a flame that you can blow out by blowing on the iPhone microphone) to various instruments that are played by pressing various &#8220;holes&#8221; or sliders on the iPhone screen and blowing into the microphone. There are a lot of other neat features, like being able to hear &amp; see music played by others across the world, but I won&#8217;t go into all the details.
-
-The interesting part of this story is that in less than a year, one of their apps was downloaded over one million times. At $0.99 each, less 30% to Apple, that works out to be $700,000 from a single app. Not too bad for a company that didn&#8217;t exist a year ago. So, it seems clear that if you can produce a compelling app, there is money to be made. The question is then what makes a compelling app. Clearly a flame that &#8220;burns&#8221; on the screen has no useful value, yet many people paid for it. Of course most in the audience were no doubt thinking along the same line.
-
-Nonetheless, we were treated to a performance by the Stanford Mobile Phone Orchestra (or MoPho). It was &#8230; interesting. I took some photos, but they are unbelievably bad. Perhaps if I had an iPhone 3GS they would have turned out.
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/2/">&larr; Older</a>
@@ -512,6 +512,10 @@ Nonetheless, we were treated to a performance by the Stanford Mobile Phone Orche
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk/">Guest post at Testdroid: Using Testdroid Cloud to test a camera SDK</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/11/updated-to-octopress/">Site updated&#8230;  Finally!</a>
       </li>
     
@@ -525,10 +529,6 @@ Nonetheless, we were treated to a performance by the Stanford Mobile Phone Orche
     
       <li class="post">
         <a href="/2009/08/announcing-smartovation-technologies/">Announcing Smartovation Technologies!</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2009/08/flaws-of-linux/">Flaws of Linux &#8230;</a>
       </li>
     
   </ul>
