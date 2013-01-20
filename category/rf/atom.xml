@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: RF | Tom Whipple]]></title>
+  <link href="http://tomwhipple.com/category/rf/atom.xml" rel="self"/>
+  <link href="http://tomwhipple.com/"/>
+  <updated>2013-01-20T10:54:03-08:00</updated>
+  <id>http://tomwhipple.com/</id>
+  <author>
+    <name><![CDATA[Tom Whipple]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Signal processing in Matlab]]></title>
+    <link href="http://tomwhipple.com/2008/07/signal-processing-in-matlab/"/>
+    <updated>2008-07-05T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2008/07/signal-processing-in-matlab</id>
+    <content type="html"><![CDATA[<p>This example is a quick start to look at signal processing in Matlab/<a href="http://octave.org">Octave</a>.</p>
+
+<ul>
+<li><a href="/projects/explorations/html/wavelets.html">Step by step</a></li>
+<li><a href="/projects/explorations/wavelets.m">Matlab source</a></li>
+</ul>
+
+
+<p>The goal is to explore Wavelet analysis in place of traditional FFT.</p>
+]]></content>
+  </entry>
+  
+</feed>
