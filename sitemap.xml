@@ -125,24 +125,30 @@
         <lastmod>2012-11-26T09:51:00-08:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://tomwhipple.com/2013/01/ipython-notebook-the-awesomest-mathematical-programming-tool-ever/
+        </loc>
+        <lastmod>2013-01-27T20:23:31-08:00</lastmod>
+    </url>
+    <url>
         <loc>http://tomwhipple.com/archives/</loc>
-        <lastmod>2013-01-20T10:46:48-08:00</lastmod>
+        <lastmod>2013-01-27T20:23:31-08:00</lastmod>
     </url>
     <url>
         <loc>http://tomwhipple.com/</loc>
-        <lastmod>2013-01-26T13:11:43-08:00</lastmod>
+        <lastmod>2013-01-27T20:23:31-08:00</lastmod>
     </url>
     <url>
         <loc>http://tomwhipple.com/notes/</loc>
-        <lastmod>2013-01-20T10:46:48-08:00</lastmod>
+        <lastmod>2013-01-27T20:23:31-08:00</lastmod>
     </url>
     <url>
         <loc>http://tomwhipple.com/notes/note-1-test/</loc>
-        <lastmod>2013-01-20T10:46:48-08:00</lastmod>
+        <lastmod>2013-01-27T20:23:31-08:00</lastmod>
     </url>
     <url>
         <loc>http://tomwhipple.com/projects/</loc>
-        <lastmod>2013-01-20T10:46:48-08:00</lastmod>
+        <lastmod>2013-01-27T20:23:31-08:00</lastmod>
     </url>
     <url>
         <loc>http://tomwhipple.com/projects.html</loc>
@@ -150,6 +156,6 @@
     </url>
     <url>
         <loc>http://tomwhipple.com/software/</loc>
-        <lastmod>2013-01-20T10:46:48-08:00</lastmod>
+        <lastmod>2013-01-27T20:23:31-08:00</lastmod>
     </url>
 </urlset>

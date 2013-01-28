@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Whipple]]></title>
   <link href="http://tomwhipple.com/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2013-01-26T13:27:24-08:00</updated>
+  <updated>2013-01-27T20:23:32-08:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[IPython Notebook: the awesomest mathematical programming tool EVER]]></title>
+    <link href="http://tomwhipple.com/2013/01/ipython-notebook-the-awesomest-mathematical-programming-tool-ever/"/>
+    <updated>2013-01-27T19:37:00-08:00</updated>
+    <id>http://tomwhipple.com/2013/01/ipython-notebook-the-awesomest-mathematical-programming-tool-ever</id>
+    <content type="html"><![CDATA[<p>Yes, that&#8217;s a bold claim. But I stand by it. I&#8217;ll skip straight to the important part:</p>
+
+<p><a href="http://ipython.org">IPython Notebook</a> makes it dead simple to explore your code/data. Just look at my <a href="http://tomwhipple.com/projects/explorations/basic-signal-processing-with-ipython-notebook.html">simple signal processing example</a>.</p>
+
+<p>Intrigued? If you&#8217;ve already installed IPython (and numpy/scipy and matplotlib), you&#8217;ve already got it! Just start notebook:</p>
+
+<p><code>$ ipython notebook --pylab inline</code></p>
+
+<p>The notebook console will open in a browser window. (Ok, you might need a couple more dependencies, but how hard is that??)</p>
+
+<p>Then all you have to do is <a href="http://tomwhipple.com/projects/explorations/basic-signal-processing-example.ipynb">download the notebook</a> and <strong>drag it to the console browser window!</strong> How awesome is that?!</p>
+
+<p>And, if that isn&#8217;t enough, a lot of work has been put into it&#8217;s multi-processing abilities. It is well worth the time to <a href="http://ipython.org/videos.html">watch the introductory video</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Guest post at Testdroid: Using Testdroid Cloud to test a camera SDK]]></title>
@@ -318,23 +339,6 @@ So, 2.0.1 is still looking pretty good.
 What??
 
 Isn&#8217;t it just easier to say &#8220;KEEP OUT&#8221; or &#8220;NO TRESPASSING&#8221;?
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Don't buy an iPhone 3G yet ...]]></title>
-    <link href="http://tomwhipple.com/2008/09/dont-buy-an-iphone-3g-yet/"/>
-    <updated>2008-09-06T00:00:00-07:00</updated>
-    <id>http://tomwhipple.com/2008/09/dont-buy-an-iphone-3g-yet</id>
-    <content type="html"><![CDATA[&#8230; and if you do, don&#8217;t upgrade to 2.0.2 if you can help it.
-
-I upgraded to the 3G about 2 weeks before 2.0.2 was released, then upgraded the software shortly after it was available, so I don&#8217;t know which to blame for the problems I have.
-
-In addition to the 3G call dropping and other issues that seem to be more AT&amp;T&#8217;s problem than Apple&#8217;s, there are major problems with the stability of the software. It hangs unexpectedly at inconvenient times, and apps seem to crash with alarming frequency. We have come to count on Apple for products that &#8220;just work&#8221; but this version seems to break that confidence. A couple of examples: The SMS application seems to take <em>forever</em> to load (ok it&#8217;s just a few seconds, but enough time to be annoying). The contact manager seems to suffer from the same problem, plus it can stop responding and hang for several seconds instead of scrolling through the contacts as expected. Other built in apps (such as Safari) seem to have the same problem. In a final bit of irony, <a href="http://www.apple.com/">www.apple.com</a> is almost impossible to use from the iPhone (good luck trying to find an Apple store on the iPhone).
-
-One begins to wonder what is going on over at Apple. If their product is going to live up to its promise, these bugs <em>must</em> be fixed. If not, Apple is going to lose its position in the phone market to cheaper competitors that are just as buggy, in the same way that Apple gave up the OS market to Microsoft; a crappy but cheaper system winning out over a better designed but somewhat behind the curve OS + hardware combination.
-
-So, I would go back to 1st generation iPhone if I could, but the screen is cracked so that isn&#8217;t really an option.
 ]]></content>
   </entry>
   
