@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Demo</title>
+</head>
+<body>
+    <a href="x-scorpion://launch">Begin</a><br/>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+ 
+ 	var focus_count = 0;
+ 
+	// Your code goes here.
+	$(window).focus(function() {
+	    focus_count++;
+		$('body').append('Focus count: ' + focus_count + '<br/>');
+	})
+    .blur(function() {
+		$('body').append('Blur.</br>');
+    });
+
+    </script>
+</body>
+</html>
