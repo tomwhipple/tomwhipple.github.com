@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Whipple]]></title>
   <link href="http://tomwhipple.com/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2013-06-20T16:05:05-07:00</updated>
+  <updated>2013-10-13T15:37:54-07:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My GPG public key ID: 7DBCC339]]></title>
+    <link href="http://tomwhipple.com/2013/10/my-gpg-key-7dbcc339/"/>
+    <updated>2013-10-13T14:40:00-07:00</updated>
+    <id>http://tomwhipple.com/2013/10/my-gpg-key-7dbcc339</id>
+    <content type="html"><![CDATA[<h3>Key fingerprint:</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>C7C3 0951 F2A5 6B85 3CD7  8801 4EFD 0909 7DBC C339</span></code></pre></td></tr></table></div></figure>
+
+
+<p><a href="http://tomwhipple.com/tomwhipple-7DBCC339.asc">Download key</a></p>
+
+<h2>Long overdue</h2>
+
+<p>Posting a public encryption key has been on my mental TODO list for some time. Recent revelations about routine NSA surveillance has caused widespread outcry, yet how many people actually use strong encryption for personal communication on a daily basis? Tools like <a href="http://www.gnupg.org/">GPG</a> can be difficult to use, so they get little acceptance. Additionally, managing crypto keys across multiple devices (computer, phone, tablet, etc.) increases ease of use hurdles and increases security challenges.</p>
+
+<p>It seems there aren&#8217;t yet any good solutions to these problems. But in the mean time, I&#8217;m planning to sign all messages I send <em>from</em> my home computer. And I&#8217;m making it possible for others to send me encrypted messages. I hope others will do the same.</p>
+
+<h2>Software</h2>
+
+<ul>
+<li><a href="http://prism-break.org/">Prism Break</a> - An exhaustive list of open software &amp; services for the threatened or paranoid.</li>
+<li><a href="http://www.gnupg.org/">GPG</a> - The standard in public-key encryption. For those that enjoy the command line.</li>
+<li><a href="https://gpgtools.org/gpgmail/index.html">GPGMail</a> - GPG plugin for Apple Mail. The easiest to use I&#8217;ve seen so far.</li>
+</ul>
+
+
+<h2>Further reading</h2>
+
+<ul>
+<li><a href="http://moxie.org/blog/we-should-all-have-something-to-hide/">We should all have something to hide</a> - <em>Moxie Marlinspike</em></li>
+<li><a href="https://www.schneier.com/">Schneier on Security</a> - <em>Bruce Schneier</em></li>
+<li><a href="http://www.theguardian.com/world/the-nsa-files">The NSA files</a> - <em>The Guardian</em></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[IPython Notebook: the awesomest mathematical programming tool EVER]]></title>
@@ -326,19 +365,6 @@ Yesterday, the bluetooth headset did not deactivate after a call ended until aft
 But the worst happened today. I was driving down the PCH enjoying the day and a listening to a podcast when my phone decided to stop playing the podcast and dial a friend. At first I thought he was calling me, but after an awkward confused silence I realized what had happened. Needless to say, this is very bizarre and totally unacceptable. Imagine being in the middle of a personal conversation when your phone decides to call a random contact!!
 
 So, 2.0.1 is still looking pretty good.
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Huh??]]></title>
-    <link href="http://tomwhipple.com/2008/09/huh/"/>
-    <updated>2008-09-13T00:00:00-07:00</updated>
-    <id>http://tomwhipple.com/2008/09/huh</id>
-    <content type="html"><![CDATA[Speaking of the PCH:
-<p style="text-align: center"><img src="http://tomwhipple.com/img/badsign.JPG" title="WARNING: persons present in the Santa Monica Palisades Bluff are prohibited by SMMC" alt="WARNING: persons present in the Santa Monica Palisades Bluff are prohibited by SMMC" height="356" width="393" /></p>
-What??
-
-Isn&#8217;t it just easier to say &#8220;KEEP OUT&#8221; or &#8220;NO TRESPASSING&#8221;?
 ]]></content>
   </entry>
   

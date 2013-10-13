@@ -9,7 +9,7 @@
   <meta name="author" content="Tom Whipple">
 
   
-  <meta name="description" content="Today, I attended a session on networking and a couple of game overview sessions. The networking session was interesting, though not in a way that &hellip;">
+  <meta name="description" content="Today brought a lot of technical details which were important but very boring to the casual audience. I spent a good chunk of time in the iPhone lab &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +75,48 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/06/wwdc-day-3-geek-details-iphone-orchestra/">WWDC Day 3: Geek Details & iPhone Orchestra</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-06-10T00:00:00-07:00" pubdate data-updated="true">Jun 10<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Today brought a lot of technical details which were important but very boring to the casual audience. I spent a good chunk of time in the iPhone lab, talking to Apple engineers and others while fixing bugs in our app. Plus, one of the sessions gave me a bunch of ideas to improve the performance and look of the app. Hopefully we can start getting them approved very soon!
+
+The highlight of the day from a theatrical perspective was the lunchtime talk given by Dr. Ge Wang, CTO of <a href="http://www.smule.com/">Smule</a>. The apps produced by Smule are audio related, from the sonic lighter (a flame that you can blow out by blowing on the iPhone microphone) to various instruments that are played by pressing various &#8220;holes&#8221; or sliders on the iPhone screen and blowing into the microphone. There are a lot of other neat features, like being able to hear &amp; see music played by others across the world, but I won&#8217;t go into all the details.
+
+The interesting part of this story is that in less than a year, one of their apps was downloaded over one million times. At $0.99 each, less 30% to Apple, that works out to be $700,000 from a single app. Not too bad for a company that didn&#8217;t exist a year ago. So, it seems clear that if you can produce a compelling app, there is money to be made. The question is then what makes a compelling app. Clearly a flame that &#8220;burns&#8221; on the screen has no useful value, yet many people paid for it. Of course most in the audience were no doubt thinking along the same line.
+
+Nonetheless, we were treated to a performance by the Stanford Mobile Phone Orchestra (or MoPho). It was &#8230; interesting. I took some photos, but they are unbelievably bad. Perhaps if I had an iPhone 3GS they would have turned out.
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -166,54 +208,6 @@ Finally, a new model of the iPhone was introduced. The new phone will have a fas
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/11/iphone-code-signing-problems/">iPhone Code Signing Problems</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-11-11T00:00:00-08:00" pubdate data-updated="true">Nov 11<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><em>UPDATE: If you think it should work and it continues to cause problems, use the windows solution (i.e. reboot everything) and do a clean build. Here is a more current <a href="http://www.24100.net/2009/02/iphone-sdk-mobile-provisioning-0xe800003a-0xe8000001/">discussion</a>.</em>
-
-As many developers have figured out by now, iPhone code signing is unnecessarily difficult. To make matters worse, it doesn&#8217;t sound like Apple is very responsive to their developers. (In my case they have yet to get back to me after two days.) A couple of key points:
-<ol>
-	<li>In the main XCode screen, highlight Targets-&gt;AppName, and click the info button. Under Build, the &#8220;Code Signing Identity&#8221; must <em>exactly</em> match the certificate name from the certificate manager.An Open Question: Does this value get inherited from the project values?</li>
-	<li>The Resources-&gt;info.plist file must have the correct app id. In my case
-com.tomwhipple.${PRODUCT_NAME:identifier}</li>
-</ol>
-A couple of more detailed discussions:
-<ul>
-	<li><a href="http://www.talentgrouplabs.com/blog/archive/2008/08/21/preflightingapplication-errors-0xe8000001-and-others.aspx">24100.net</a> (very detailed and helpful)</li>
-	<li><a href="http://discussions.apple.com/thread.jspa?threadID=1721273&amp;tstart=0">Apple</a> (a developer discussion thread)</li>
-</ul>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/6/">&larr; Older</a>
@@ -231,6 +225,10 @@ A couple of more detailed discussions:
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/10/my-gpg-key-7dbcc339/">My GPG public key ID: 7DBCC339</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/01/ipython-notebook-the-awesomest-mathematical-programming-tool-ever/">IPython Notebook: the awesomest mathematical programming tool EVER</a>
       </li>
     
@@ -238,13 +236,8 @@ A couple of more detailed discussions:
         <a href="/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk/">Guest post at Testdroid: Using Testdroid Cloud to test a camera SDK</a>
       </li>
     
-      <li class="post">
-        <a href="/2012/11/updated-to-octopress/">Site updated&#8230;  Finally!</a>
-      </li>
-    
   </ul>
 </section>
-
 
 <section>
   <h1>Latest Tweets</h1>
@@ -263,7 +256,32 @@ A couple of more detailed discussions:
 </section>
 
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
+        github.showRepos({
+            user: 'tomwhipple',
+            count: 4,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
   

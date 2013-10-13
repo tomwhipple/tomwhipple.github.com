@@ -9,7 +9,7 @@
   <meta name="author" content="Tom Whipple">
 
   
-  <meta name="description" content="This year the fires are hitting a little closer to home. (Fortunately, everything seems to be OK so far.) A couple weeks ago there was a fire in the &hellip;">
+  <meta name="description" content="UPDATE: If you think it should work and it continues to cause problems, use the windows solution (i.e. reboot everything) and do a clean build. Here &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +75,54 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/11/iphone-code-signing-problems/">iPhone Code Signing Problems</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-11-11T00:00:00-08:00" pubdate data-updated="true">Nov 11<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><em>UPDATE: If you think it should work and it continues to cause problems, use the windows solution (i.e. reboot everything) and do a clean build. Here is a more current <a href="http://www.24100.net/2009/02/iphone-sdk-mobile-provisioning-0xe800003a-0xe8000001/">discussion</a>.</em>
+
+As many developers have figured out by now, iPhone code signing is unnecessarily difficult. To make matters worse, it doesn&#8217;t sound like Apple is very responsive to their developers. (In my case they have yet to get back to me after two days.) A couple of key points:
+<ol>
+	<li>In the main XCode screen, highlight Targets-&gt;AppName, and click the info button. Under Build, the &#8220;Code Signing Identity&#8221; must <em>exactly</em> match the certificate name from the certificate manager.An Open Question: Does this value get inherited from the project values?</li>
+	<li>The Resources-&gt;info.plist file must have the correct app id. In my case
+com.tomwhipple.${PRODUCT_NAME:identifier}</li>
+</ol>
+A couple of more detailed discussions:
+<ul>
+	<li><a href="http://www.talentgrouplabs.com/blog/archive/2008/08/21/preflightingapplication-errors-0xe8000001-and-others.aspx">24100.net</a> (very detailed and helpful)</li>
+	<li><a href="http://discussions.apple.com/thread.jspa?threadID=1721273&amp;tstart=0">Apple</a> (a developer discussion thread)</li>
+</ul>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -172,49 +220,6 @@ NOTE 2: If the build directory gets committed by mistake, delete it from the rep
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/09/our-congress-has-failed-us/">Our Congress Has Failed Us</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-09-29T00:00:00-07:00" pubdate data-updated="true">Sep 29<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">The stock market has lost something like 10% in a SINGLE DAY. All because the congress couldn&#8217;t figure out what the hell they are doing. Rather than waiting and forming a stable consensus, they brought the bill to a vote and <em>let it fail</em>. In doing so they have failed the country. All 435 members of the house share in this responsibility equally. If they voted for it, they failed to do enough to build consensus with their colleagues. If they voted against it, they need to explain to the country why they didn&#8217;t raise the objection before.
-
-I don&#8217;t think I&#8217;ve ever done it before, but I wrote my congressman (R-CA) about it:
-<blockquote>I see from your website that you voted against today&#8217;s financial bailout bill. As a result of your action, the stock market has declined dramatically. We have been hearing from various experts for the past several days that the situation is very bad, yet you have ignored this advice and contributed to an escalation of the problem.
-
-You are therefore personally responsible for the decline in the market. Allowing such an important bill to fail is irresponsible. As a member of congress, you are part of a very small group of national leaders. Safeguarding the health of our economy is just as important as protecting our physical security. It is part of your responsibility as a leader and duty as an American to put politics and ideology aside in this time of crisis and figure out a way out of this situation.
-
-If you and your colleagues cannot support the bill as proposed, you must work together to come up with a reasonable solution, before it is put to a vote. We saw the result of this failure in the market today. You are all, Democrat and Republican, equally responsible for this result. Each one of you owes the country and your constituents a detailed explanation of your position and reasoning.</blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/7/">&larr; Older</a>
@@ -232,6 +237,10 @@ If you and your colleagues cannot support the bill as proposed, you must work to
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/10/my-gpg-key-7dbcc339/">My GPG public key ID: 7DBCC339</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/01/ipython-notebook-the-awesomest-mathematical-programming-tool-ever/">IPython Notebook: the awesomest mathematical programming tool EVER</a>
       </li>
     
@@ -239,13 +248,8 @@ If you and your colleagues cannot support the bill as proposed, you must work to
         <a href="/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk/">Guest post at Testdroid: Using Testdroid Cloud to test a camera SDK</a>
       </li>
     
-      <li class="post">
-        <a href="/2012/11/updated-to-octopress/">Site updated&#8230;  Finally!</a>
-      </li>
-    
   </ul>
 </section>
-
 
 <section>
   <h1>Latest Tweets</h1>
@@ -264,7 +268,32 @@ If you and your colleagues cannot support the bill as proposed, you must work to
 </section>
 
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
+        github.showRepos({
+            user: 'tomwhipple',
+            count: 4,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
   

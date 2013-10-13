@@ -9,7 +9,7 @@
   <meta name="author" content="Tom Whipple">
 
   
-  <meta name="description" content="I wrote some Perl modules a while back and have always meant to release them to the general community. I haven&#8217;t had time to do all that is &hellip;">
+  <meta name="description" content="After much procrastination, I have put the photos of my June trip to Europe up on Flickr. ">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +75,43 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/07/europe-pics/">Europe Pics</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-07-27T00:00:00-07:00" pubdate data-updated="true">Jul 27<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">After much procrastination, I have put the <a href="http://www.flickr.com/photos/9632583@N03/sets/72157600624742035/" title="photos">photos</a> of my June trip to Europe up on Flickr.
+<p align="center"><img src="/img/tom_on_towerbridge.jpg" title="Tom on Tower Bridge" alt="Tom on Tower Bridge" /></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -150,44 +187,6 @@ I expect to release one or two more additional projects soon.
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/08/update-living-in-portland/">Update: Living in Portland</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-08-06T00:00:00-07:00" pubdate data-updated="true">Aug 6<span>th</span>, 2006</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">I have been living in Portland OR for the summer. <a href="http://www.intel.com">Intel</a> has hired me to work on the <a href="http://portland.freedesktop.org">Portland Project</a>, a cross desktop framework for Linux.
-
-<strike>I have posted some <a href="/gallery/pics/2006_summer_portland/">photos</a> of various activities.</strike> <em>(UPDATE: Gallery is broken at the moment and I don&#8217;t have time to deal with it.)</em>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/11/">&larr; Older</a>
@@ -205,6 +204,10 @@ I expect to release one or two more additional projects soon.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/10/my-gpg-key-7dbcc339/">My GPG public key ID: 7DBCC339</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/01/ipython-notebook-the-awesomest-mathematical-programming-tool-ever/">IPython Notebook: the awesomest mathematical programming tool EVER</a>
       </li>
     
@@ -212,13 +215,8 @@ I expect to release one or two more additional projects soon.
         <a href="/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk/">Guest post at Testdroid: Using Testdroid Cloud to test a camera SDK</a>
       </li>
     
-      <li class="post">
-        <a href="/2012/11/updated-to-octopress/">Site updated&#8230;  Finally!</a>
-      </li>
-    
   </ul>
 </section>
-
 
 <section>
   <h1>Latest Tweets</h1>
@@ -237,7 +235,32 @@ I expect to release one or two more additional projects soon.
 </section>
 
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
+        github.showRepos({
+            user: 'tomwhipple',
+            count: 4,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
   

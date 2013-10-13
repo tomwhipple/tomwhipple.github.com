@@ -9,7 +9,7 @@
   <meta name="author" content="Tom Whipple">
 
   
-  <meta name="description" content="Ok, here are some dos &amp; don&#8217;ts for all you recruiters out there: DON&#8217;T cold call me just because I&#8217;ve just connected with &hellip;">
+  <meta name="description" content="Hey, I&#8217;m still alive! Seriously though, the site has been updated to use Octopress, and is how hosted on GitHub pages. Content is typically &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -75,6 +75,50 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/11/updated-to-octopress/">Site Updated&#8230; Finally!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-03T00:00:00-07:00" pubdate data-updated="true">Nov 3<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hey, I&#8217;m still alive!</p>
+
+<p>Seriously though, the site has been updated to use <a href="http://octopress.org">Octopress</a>, and is how hosted on <a href="http://pages.github.com">GitHub pages</a>.</p>
+
+<p>Content is typically written in raw text (markdown). The framework generates static HTML from these files, which can be served on any web server. The result is that all the site admin headaches for systems like <a href="http://wordpress.org">Wordpress</a> are eliminated. And, if the site is served via GitHub, authentication is handled via SSH keys.</p>
+
+<p>Can it get any easier than that?</p>
+
+<p>BTW: If you&#8217;re really curious, the source for this site is <a href="https://github.com/tomwhipple/octopress/tree/tomwhipple">on GitHub</a>.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -175,44 +219,6 @@ And, a few resources that I have found in the past few days:
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2009/08/announcing-smartovation-technologies/">Announcing Smartovation Technologies!</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-08-06T00:00:00-07:00" pubdate data-updated="true">Aug 6<span>th</span>, 2009</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I am very pleased to announce the launch of <a title="Smartovation Technologies" href="http://www.smartovation.com">Smartovation Technologies</a>, a new venture devoted to iPhone and web applications. We expect to be able to submit at least one new App this month. Stay tuned for updates!</p>
-
-<p>And, work continues on the <a href="http://www.walki-talki.com">walki-talk.com</a> audio tour guides.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/3/">&larr; Older</a>
@@ -230,6 +236,10 @@ And, a few resources that I have found in the past few days:
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/10/my-gpg-key-7dbcc339/">My GPG public key ID: 7DBCC339</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/01/ipython-notebook-the-awesomest-mathematical-programming-tool-ever/">IPython Notebook: the awesomest mathematical programming tool EVER</a>
       </li>
     
@@ -237,13 +247,8 @@ And, a few resources that I have found in the past few days:
         <a href="/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk/">Guest post at Testdroid: Using Testdroid Cloud to test a camera SDK</a>
       </li>
     
-      <li class="post">
-        <a href="/2012/11/updated-to-octopress/">Site updated&#8230;  Finally!</a>
-      </li>
-    
   </ul>
 </section>
-
 
 <section>
   <h1>Latest Tweets</h1>
@@ -262,7 +267,32 @@ And, a few resources that I have found in the past few days:
 </section>
 
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
+        github.showRepos({
+            user: 'tomwhipple',
+            count: 4,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
   

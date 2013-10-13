@@ -9,8 +9,9 @@
   <meta name="author" content="Tom Whipple">
 
   
-  <meta name="description" content="Archive 2013 IPython Notebook: the awesomest mathematical programming tool EVER
-Jan 27 2013 2012 Guest post at Testdroid: Using Testdroid Cloud to &hellip;">
+  <meta name="description" content="Archive 2013 My GPG public key ID: 7DBCC339
+Oct 13 2013 IPython Notebook: the awesomest mathematical programming tool EVER
+Jan 27 2013 2012 Guest &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -88,6 +89,16 @@ Jan 27 2013 2012 Guest post at Testdroid: Using Testdroid Cloud to &hellip;">
 
   
   <h2>2013</h2>
+
+<article>
+  
+<h1><a href="/2013/10/my-gpg-key-7dbcc339/">My GPG public key ID: 7DBCC339</a></h1>
+<time datetime="2013-10-13T14:40:00-07:00" pubdate><span class='month'>Oct</span> <span class='day'>13</span> <span class='year'>2013</span></time>
+
+
+</article>
+
+
 
 <article>
   
@@ -549,6 +560,10 @@ Jan 27 2013 2012 Guest post at Testdroid: Using Testdroid Cloud to &hellip;">
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/10/my-gpg-key-7dbcc339/">My GPG public key ID: 7DBCC339</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/01/ipython-notebook-the-awesomest-mathematical-programming-tool-ever/">IPython Notebook: the awesomest mathematical programming tool EVER</a>
       </li>
     
@@ -556,13 +571,8 @@ Jan 27 2013 2012 Guest post at Testdroid: Using Testdroid Cloud to &hellip;">
         <a href="/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk/">Guest post at Testdroid: Using Testdroid Cloud to test a camera SDK</a>
       </li>
     
-      <li class="post">
-        <a href="/2012/11/updated-to-octopress/">Site updated...  Finally!</a>
-      </li>
-    
   </ul>
 </section>
-
 
 <section>
   <h1>Latest Tweets</h1>
@@ -581,7 +591,32 @@ Jan 27 2013 2012 Guest post at Testdroid: Using Testdroid Cloud to &hellip;">
 </section>
 
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
+        github.showRepos({
+            user: 'tomwhipple',
+            count: 4,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
   

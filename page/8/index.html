@@ -9,8 +9,7 @@
   <meta name="author" content="Tom Whipple">
 
   
-  <meta name="description" content="This example is a quick start to look at signal processing in Matlab/Octave. Step by step
-Matlab source The goal is to explore Wavelet analysis in &hellip;">
+  <meta name="description" content="&#8230; and if you do, don&#8217;t upgrade to 2.0.2 if you can help it. I upgraded to the 3G about 2 weeks before 2.0.2 was released, then upgraded &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,6 +75,50 @@ Matlab source The goal is to explore Wavelet analysis in &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/09/dont-buy-an-iphone-3g-yet/">Don&#8217;t Buy an iPhone 3G Yet &#8230;</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-09-06T00:00:00-07:00" pubdate data-updated="true">Sep 6<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">&#8230; and if you do, don&#8217;t upgrade to 2.0.2 if you can help it.
+
+I upgraded to the 3G about 2 weeks before 2.0.2 was released, then upgraded the software shortly after it was available, so I don&#8217;t know which to blame for the problems I have.
+
+In addition to the 3G call dropping and other issues that seem to be more AT&amp;T&#8217;s problem than Apple&#8217;s, there are major problems with the stability of the software. It hangs unexpectedly at inconvenient times, and apps seem to crash with alarming frequency. We have come to count on Apple for products that &#8220;just work&#8221; but this version seems to break that confidence. A couple of examples: The SMS application seems to take <em>forever</em> to load (ok it&#8217;s just a few seconds, but enough time to be annoying). The contact manager seems to suffer from the same problem, plus it can stop responding and hang for several seconds instead of scrolling through the contacts as expected. Other built in apps (such as Safari) seem to have the same problem. In a final bit of irony, <a href="http://www.apple.com/">www.apple.com</a> is almost impossible to use from the iPhone (good luck trying to find an Apple store on the iPhone).
+
+One begins to wonder what is going on over at Apple. If their product is going to live up to its promise, these bugs <em>must</em> be fixed. If not, Apple is going to lose its position in the phone market to cheaper competitors that are just as buggy, in the same way that Apple gave up the OS market to Microsoft; a crappy but cheaper system winning out over a better designed but somewhat behind the curve OS + hardware combination.
+
+So, I would go back to 1st generation iPhone if I could, but the screen is cracked so that isn&#8217;t really an option.
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -161,44 +204,6 @@ Most of the outage has been due to my own laziness. I haven&#8217;t been motivat
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2007/10/fires/">Fires</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-10-22T00:00:00-07:00" pubdate data-updated="true">Oct 22<span>nd</span>, 2007</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">I returned to SoCal today to find it hot and burning. Quite a change from the 1-2 inches of snow on the ground in Denver. We flew over one of the fires where more than 100 homes have burned. The smoke from another fire (near Santa Clarita, I think) fills the whole Ventura/Oxnard area. In daylight, there is a strange orange glow and this evening the sun disappeared about 40 minutes early. It just sort of faded into red and then was gone. The smoke comes in to all of the buildings at work and my apartment, making my eyes itch.
-
-I didn&#8217;t get any pictures today, but maybe tomorrow.
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/page/9/">&larr; Older</a>
@@ -216,6 +221,10 @@ I didn&#8217;t get any pictures today, but maybe tomorrow.
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/10/my-gpg-key-7dbcc339/">My GPG public key ID: 7DBCC339</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/01/ipython-notebook-the-awesomest-mathematical-programming-tool-ever/">IPython Notebook: the awesomest mathematical programming tool EVER</a>
       </li>
     
@@ -223,13 +232,8 @@ I didn&#8217;t get any pictures today, but maybe tomorrow.
         <a href="/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk/">Guest post at Testdroid: Using Testdroid Cloud to test a camera SDK</a>
       </li>
     
-      <li class="post">
-        <a href="/2012/11/updated-to-octopress/">Site updated&#8230;  Finally!</a>
-      </li>
-    
   </ul>
 </section>
-
 
 <section>
   <h1>Latest Tweets</h1>
@@ -248,7 +252,32 @@ I didn&#8217;t get any pictures today, but maybe tomorrow.
 </section>
 
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
+        github.showRepos({
+            user: 'tomwhipple',
+            count: 4,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
   
