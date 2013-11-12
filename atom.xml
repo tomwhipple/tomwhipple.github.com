@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Whipple]]></title>
   <link href="http://tomwhipple.com/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2013-10-13T15:37:54-07:00</updated>
+  <updated>2013-11-12T09:14:54-08:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -18,13 +18,13 @@
     <link href="http://tomwhipple.com/2013/10/my-gpg-key-7dbcc339/"/>
     <updated>2013-10-13T14:40:00-07:00</updated>
     <id>http://tomwhipple.com/2013/10/my-gpg-key-7dbcc339</id>
-    <content type="html"><![CDATA[<h3>Key fingerprint:</h3>
+    <content type="html"><![CDATA[<h3>PGP Key fingerprint:</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>C7C3 0951 F2A5 6B85 3CD7  8801 4EFD 0909 7DBC C339</span></code></pre></td></tr></table></div></figure>
 
 
-<p><a href="http://tomwhipple.com/tomwhipple-7DBCC339.asc">Download key</a></p>
+<p><a href="https://raw.github.com/tomwhipple/tomwhipple.github.com/master/tomwhipple-7DBCC339.asc">Download key</a></p>
 
 <h2>Long overdue</h2>
 
