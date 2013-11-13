@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Whipple]]></title>
   <link href="http://tomwhipple.com/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2013-11-13T09:09:31-08:00</updated>
+  <updated>2013-11-13T09:20:21-08:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -20,9 +20,9 @@
     <id>http://tomwhipple.com/2013/11/where-is-pgp-for-ios</id>
     <content type="html"><![CDATA[<p>Is any one using PGP on iOS? The options seem extremely limited.</p>
 
-<p>Despite the fact that PGP has been around for decates, PGP support on iOS is quite limited. It is readily available on traditional computers (see <a href="http://prism-break.org/">Prism Break</a> for an exhaustive list), but what about iOS?</p>
+<p>Despite the fact that PGP has been around for decades, PGP support on iOS is quite limited. It is readily available on traditional computers (see <a href="http://prism-break.org/">Prism Break</a> for an exhaustive list), but what about iOS?</p>
 
-<p>Most PC applications seem to simply provide a frontend for <a href="http://www.gnupg.org">GPG</a> via a mechanisim like <a href="http://www.gnupg.org/related_software/gpgme/index.en.html">GPGME</a>. This approach avoids the pitfalls of rolling your own crypto, but it means that GPG must be available. However, the design of iOS precludes launcing another user process from within an app. And, since GPG is liscensed under the GPL, which <a href="http://www.fsf.org/blogs/licensing/more-about-the-app-store-gpl-enforcement">may conflict with Apple&#8217;s terms of service</a>, there is little incentive to put a lot of effort into this</p>
+<p>Most PC applications seem to simply provide a frontend for <a href="http://www.gnupg.org">GPG</a> via a mechanism like <a href="http://www.gnupg.org/related_software/gpgme/index.en.html">GPGME</a>. This approach avoids the pitfalls of rolling your own crypto, but it means that GPG must be available. However, the design of iOS precludes launching another user process from within an app. And, since GPG is licensed under the GPL, which <a href="http://www.fsf.org/blogs/licensing/more-about-the-app-store-gpl-enforcement">may conflict with Apple&#8217;s terms of service</a>, there is little incentive to put a lot of effort into this</p>
 
 <p>The result of these two problems means that there is not yet a good option for developers who want to support secure email.</p>
 
@@ -39,9 +39,9 @@
 <h2>Related libraries:</h2>
 
 <ul>
-<li><strong><a href="http://www.gnupg.org/related_software/gpgme/index.en.html">GPGME</a></strong> is an interface to the GPG binary. It might be possible to port GPG/GPGME to the iPhone, but the design of this library is based upon starting GPG as it&#8217;s own process, which is forbidden by iOS. GPGME is liscenced under the LGPL, but GPG is GPL&#8217;d, possibly making it unsuitable for App Store distribution.</li>
-<li><strong><a href="https://github.com/upnext/unnetpgp">UNNetPGP</a></strong> is based on NetPGP, the NetBSD PGP library. The BSD liscence is a better option for many apps, but NetPGP has not seen any active development since 2010. UUNetPGP still has some rough edges to be flushed out, but looks very promising if the underlying library is maitained.</li>
-<li><strong><a href="http://www.gnu.org/software/libgcrypt/">libgcrypt</a></strong> is an actively maintaned, LGPL, general purpose crypto library. However, it is <em>only</em> a crypto library. It doesn&#8217;t handle keyring management and requires <em>much</em> more knowledge of crytpo on the part of the developr.</li>
+<li><strong><a href="http://www.gnupg.org/related_software/gpgme/index.en.html">GPGME</a></strong> is an interface to the GPG binary. It might be possible to port GPG/GPGME to the iPhone, but the design of this library is based upon starting GPG as it&#8217;s own process, which is forbidden by iOS. GPGME is licensed under the LGPL, but GPG is GPL&#8217;d, possibly making it unsuitable for App Store distribution.</li>
+<li><strong><a href="https://github.com/upnext/unnetpgp">UNNetPGP</a></strong> is based on NetPGP, the NetBSD PGP library. The BSD license is a better option for many apps, but NetPGP has not seen any active development since 2010. UUNetPGP still has some rough edges to be flushed out, but looks very promising if the underlying library is maintained.</li>
+<li><strong><a href="http://www.gnu.org/software/libgcrypt/">libgcrypt</a></strong> is an actively maintained, LGPL, general purpose crypto library. However, it is <em>only</em> a crypto library. It doesn&#8217;t handle keyring management and requires <em>much</em> more knowledge of crytpo on the part of the developer.</li>
 </ul>
 
 ]]></content>
