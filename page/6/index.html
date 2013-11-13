@@ -9,7 +9,7 @@
   <meta name="author" content="Tom Whipple">
 
   
-  <meta name="description" content="UPDATE: If you think it should work and it continues to cause problems, use the windows solution (i.e. reboot everything) and do a clean build. Here &hellip;">
+  <meta name="description" content="So far, the new iPhone software released on Friday doesn&#8217;t look good. I&#8217;ve had two problems in as many days. Yesterday, the bluetooth &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -81,7 +81,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/2008/11/iphone-code-signing-problems/">iPhone Code Signing Problems</a></h1>
+      <h1 class="entry-title"><a href="/2008/09/iphone-21-software-fail/">iPhone 2.1 Software: FAIL</a></h1>
     
     
       <p class="meta">
@@ -97,122 +97,148 @@
   
 
 
-<time datetime="2008-11-11T00:00:00-08:00" pubdate data-updated="true">Nov 11<span>th</span>, 2008</time>
+<time datetime="2008-09-13T00:00:00-07:00" pubdate data-updated="true">Sep 13<span>th</span>, 2008</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><em>UPDATE: If you think it should work and it continues to cause problems, use the windows solution (i.e. reboot everything) and do a clean build. Here is a more current <a href="http://www.24100.net/2009/02/iphone-sdk-mobile-provisioning-0xe800003a-0xe8000001/">discussion</a>.</em>
+  <div class="entry-content">So far, the new iPhone software released on Friday doesn&#8217;t look good. I&#8217;ve had two problems in as many days.
 
-As many developers have figured out by now, iPhone code signing is unnecessarily difficult. To make matters worse, it doesn&#8217;t sound like Apple is very responsive to their developers. (In my case they have yet to get back to me after two days.) A couple of key points:
-<ol>
-	<li>In the main XCode screen, highlight Targets-&gt;AppName, and click the info button. Under Build, the &#8220;Code Signing Identity&#8221; must <em>exactly</em> match the certificate name from the certificate manager.An Open Question: Does this value get inherited from the project values?</li>
-	<li>The Resources-&gt;info.plist file must have the correct app id. In my case
-com.tomwhipple.${PRODUCT_NAME:identifier}</li>
-</ol>
-A couple of more detailed discussions:
+Yesterday, the bluetooth headset did not deactivate after a call ended until after I unlocked the phone with the slider dodad.
+
+But the worst happened today. I was driving down the PCH enjoying the day and a listening to a podcast when my phone decided to stop playing the podcast and dial a friend. At first I thought he was calling me, but after an awkward confused silence I realized what had happened. Needless to say, this is very bizarre and totally unacceptable. Imagine being in the middle of a personal conversation when your phone decides to call a random contact!!
+
+So, 2.0.1 is still looking pretty good.
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/09/huh/">Huh??</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-09-13T00:00:00-07:00" pubdate data-updated="true">Sep 13<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">Speaking of the PCH:
+<p style="text-align: center"><img src="/img/badsign.JPG" title="WARNING: persons present in the Santa Monica Palisades Bluff are prohibited by SMMC" alt="WARNING: persons present in the Santa Monica Palisades Bluff are prohibited by SMMC" height="356" width="393" /></p>
+What??
+
+Isn&#8217;t it just easier to say &#8220;KEEP OUT&#8221; or &#8220;NO TRESPASSING&#8221;?
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/09/dont-buy-an-iphone-3g-yet/">Don&#8217;t Buy an iPhone 3G Yet &#8230;</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-09-06T00:00:00-07:00" pubdate data-updated="true">Sep 6<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content">&#8230; and if you do, don&#8217;t upgrade to 2.0.2 if you can help it.
+
+I upgraded to the 3G about 2 weeks before 2.0.2 was released, then upgraded the software shortly after it was available, so I don&#8217;t know which to blame for the problems I have.
+
+In addition to the 3G call dropping and other issues that seem to be more AT&amp;T&#8217;s problem than Apple&#8217;s, there are major problems with the stability of the software. It hangs unexpectedly at inconvenient times, and apps seem to crash with alarming frequency. We have come to count on Apple for products that &#8220;just work&#8221; but this version seems to break that confidence. A couple of examples: The SMS application seems to take <em>forever</em> to load (ok it&#8217;s just a few seconds, but enough time to be annoying). The contact manager seems to suffer from the same problem, plus it can stop responding and hang for several seconds instead of scrolling through the contacts as expected. Other built in apps (such as Safari) seem to have the same problem. In a final bit of irony, <a href="http://www.apple.com/">www.apple.com</a> is almost impossible to use from the iPhone (good luck trying to find an Apple store on the iPhone).
+
+One begins to wonder what is going on over at Apple. If their product is going to live up to its promise, these bugs <em>must</em> be fixed. If not, Apple is going to lose its position in the phone market to cheaper competitors that are just as buggy, in the same way that Apple gave up the OS market to Microsoft; a crappy but cheaper system winning out over a better designed but somewhat behind the curve OS + hardware combination.
+
+So, I would go back to 1st generation iPhone if I could, but the screen is cracked so that isn&#8217;t really an option.
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/07/signal-processing-in-matlab/">Signal Processing in Matlab</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-07-05T00:00:00-07:00" pubdate data-updated="true">Jul 5<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This example is a quick start to look at signal processing in Matlab/<a href="http://octave.org">Octave</a>.</p>
+
 <ul>
-	<li><a href="http://www.talentgrouplabs.com/blog/archive/2008/08/21/preflightingapplication-errors-0xe8000001-and-others.aspx">24100.net</a> (very detailed and helpful)</li>
-	<li><a href="http://discussions.apple.com/thread.jspa?threadID=1721273&amp;tstart=0">Apple</a> (a developer discussion thread)</li>
+<li><a href="/projects/explorations/html/wavelets.html">Step by step</a></li>
+<li><a href="/projects/explorations/wavelets.m">Matlab source</a></li>
 </ul>
-</div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/10/fire-season-again/">Fire Season Again</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-10-22T00:00:00-07:00" pubdate data-updated="true">Oct 22<span>nd</span>, 2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">This year the fires are hitting a little closer to home. (Fortunately, everything seems to be OK so far.) A couple weeks ago there was a <a href="http://www.venturacountystar.com/news/2008/oct/12/fire-burns-7-acres-in-ventura-river-bed/">fire in the Ventura River bottom</a>. Today, a <a href="http://www.venturacountystar.com/news/2008/oct/22/small-fire-ventura/">more serious fire</a> started on the edge of town and moved up into the hills. The entire hillside burned, but by the time I saw it, it was just a black hill with a bit of smoke coming off. It must have gone over the ridge, since helicopters were dropping water there. (I can still hear them as I write this.) But there wasn&#8217;t much smoke coming from the area. It looks like the wind has died for the evening, so I would be surprised if it flares up again.
-
-But, it looks like a bigger fire must have started up the coast towards Santa Barbra, because there is a lot of smoke blowing out to sea from much farther west.
-
-I took a picture of the sunset and smoke with my iPhone, but can&#8217;t seem to get it off the phone without a lot of extra hassle. (Apple has been a big disappointment lately, but that&#8217;s another story.)
-
-<a href="http://delicious.com/tomwhipple/REDFLAG">Other relevant links. </a>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2008/10/configuring-cvs-for-apples-xcode-projects/">Configuring CVS for Apple&#8217;s XCode Projects</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2008-10-11T00:00:00-07:00" pubdate data-updated="true">Oct 11<span>th</span>, 2008</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><em>UPDATE: It seems that most of the nonsense described below is fixed in XCode 3.1.2. However it is still necessary to import the project and then check it out again.</em>
-
-Apple ostensibly has integrated CVS &amp; SVN as version control into XCode. But in XCode 3.1.1 the CVS integration is very poor. The problem seems to be the project/build directory where XCode keeps binaries. This directory appears to be generated from all the other files, so the solution seems to be to leave it out of CVS.
-
-These steps seem to work:
-<ol>
-	<li>Make sure the repository is set up. (See <a href="http://developer.apple.com/internet/opensource/cvsoverview.html">Apple&#8217;s instructions</a> or better yet, the <a href="http://ximbiot.com/cvs/manual/">CVS manual</a>) This includes defining the repository under SCM in XCode.</li>
-	<li>Create the project in a temporary directory as normal in XCode.</li>
-	<li>Go to <strong>SCM&gt;Configure SCM for this project</strong>. Choose your repository and click OK.</li>
-	<li>Go to <strong>Build&gt;Clean All Targets</strong>.</li>
-	<li>Close the project window.</li>
-	<li>Go to the project directory in the Finder and delete the contents of the &#8220;build&#8221; directory.</li>
-	<li>In XCode, go to <strong>SCM&gt;Repositories</strong> tool.</li>
-	<li>Click &#8220;Import&#8221; and import the temporary project directory into CVS.</li>
-	<li>Click &#8220;Checkout&#8221; and choose the directory where you will do your work. (This is NOT the temporary project directory you created in step 2.)</li>
-	<li>XCode will ask you if you want to open the project when it is done with the checkout. If the checkout directory structure looks good, you should delete the temporary directory.</li>
-</ol>
-NOTE: If some subset of the builds directory shows up under the SCM tool on the left of the project tab, go to <strong>SCM&gt;Refresh Entire Project </strong>BEFORE the build directory gets committed.
-NOTE 2: If the build directory gets committed by mistake, delete it from the repository, the local directory structure, and the corresponding entry in the projectdir/CVS/Entries file.
+<p>The goal is to explore Wavelet analysis in place of traditional FFT.</p>
 </div>
   
   
@@ -235,6 +261,10 @@ NOTE 2: If the build directory gets committed by mistake, delete it from the rep
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/11/where-is-pgp-for-ios/">Where are PGP tools for iOS?</a>
+      </li>
     
       <li class="post">
         <a href="/2013/10/my-gpg-key-7dbcc339/">My GPG public key ID: 7DBCC339</a>

@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Whipple]]></title>
   <link href="http://tomwhipple.com/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2013-11-12T09:18:16-08:00</updated>
+  <updated>2013-11-13T09:09:31-08:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -12,6 +12,40 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Where are PGP tools for iOS?]]></title>
+    <link href="http://tomwhipple.com/2013/11/where-is-pgp-for-ios/"/>
+    <updated>2013-11-13T09:03:00-08:00</updated>
+    <id>http://tomwhipple.com/2013/11/where-is-pgp-for-ios</id>
+    <content type="html"><![CDATA[<p>Is any one using PGP on iOS? The options seem extremely limited.</p>
+
+<p>Despite the fact that PGP has been around for decates, PGP support on iOS is quite limited. It is readily available on traditional computers (see <a href="http://prism-break.org/">Prism Break</a> for an exhaustive list), but what about iOS?</p>
+
+<p>Most PC applications seem to simply provide a frontend for <a href="http://www.gnupg.org">GPG</a> via a mechanisim like <a href="http://www.gnupg.org/related_software/gpgme/index.en.html">GPGME</a>. This approach avoids the pitfalls of rolling your own crypto, but it means that GPG must be available. However, the design of iOS precludes launcing another user process from within an app. And, since GPG is liscensed under the GPL, which <a href="http://www.fsf.org/blogs/licensing/more-about-the-app-store-gpl-enforcement">may conflict with Apple&#8217;s terms of service</a>, there is little incentive to put a lot of effort into this</p>
+
+<p>The result of these two problems means that there is not yet a good option for developers who want to support secure email.</p>
+
+<p>Even with these problems there are a couple apps available, though it isn&#8217;t apparent what crypto libraries they are using.</p>
+
+<h2>iOS Apps:</h2>
+
+<ul>
+<li><strong><a href="http://ipgmail.com/">iPGMail</a></strong> might be a good option. The app store screen shots only show the key management features, but reviews are good.</li>
+<li><strong><a href="https://itunes.apple.com/us/app/opengp/id414003727">oPenGP</a></strong> seems to be based on copying/pasting for encryption/decryption. Single review mentions crashing.</li>
+</ul>
+
+
+<h2>Related libraries:</h2>
+
+<ul>
+<li><strong><a href="http://www.gnupg.org/related_software/gpgme/index.en.html">GPGME</a></strong> is an interface to the GPG binary. It might be possible to port GPG/GPGME to the iPhone, but the design of this library is based upon starting GPG as it&#8217;s own process, which is forbidden by iOS. GPGME is liscenced under the LGPL, but GPG is GPL&#8217;d, possibly making it unsuitable for App Store distribution.</li>
+<li><strong><a href="https://github.com/upnext/unnetpgp">UNNetPGP</a></strong> is based on NetPGP, the NetBSD PGP library. The BSD liscence is a better option for many apps, but NetPGP has not seen any active development since 2010. UUNetPGP still has some rough edges to be flushed out, but looks very promising if the underlying library is maitained.</li>
+<li><strong><a href="http://www.gnu.org/software/libgcrypt/">libgcrypt</a></strong> is an actively maintaned, LGPL, general purpose crypto library. However, it is <em>only</em> a crypto library. It doesn&#8217;t handle keyring management and requires <em>much</em> more knowledge of crytpo on the part of the developr.</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My GPG public key ID: 7DBCC339]]></title>
@@ -350,21 +384,6 @@ I don&#8217;t think I&#8217;ve ever done it before, but I wrote my congressman (
 You are therefore personally responsible for the decline in the market. Allowing such an important bill to fail is irresponsible. As a member of congress, you are part of a very small group of national leaders. Safeguarding the health of our economy is just as important as protecting our physical security. It is part of your responsibility as a leader and duty as an American to put politics and ideology aside in this time of crisis and figure out a way out of this situation.
 
 If you and your colleagues cannot support the bill as proposed, you must work together to come up with a reasonable solution, before it is put to a vote. We saw the result of this failure in the market today. You are all, Democrat and Republican, equally responsible for this result. Each one of you owes the country and your constituents a detailed explanation of your position and reasoning.</blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[iPhone 2.1 software: FAIL]]></title>
-    <link href="http://tomwhipple.com/2008/09/iphone-21-software-fail/"/>
-    <updated>2008-09-13T00:00:00-07:00</updated>
-    <id>http://tomwhipple.com/2008/09/iphone-21-software-fail</id>
-    <content type="html"><![CDATA[So far, the new iPhone software released on Friday doesn&#8217;t look good. I&#8217;ve had two problems in as many days.
-
-Yesterday, the bluetooth headset did not deactivate after a call ended until after I unlocked the phone with the slider dodad.
-
-But the worst happened today. I was driving down the PCH enjoying the day and a listening to a podcast when my phone decided to stop playing the podcast and dial a friend. At first I thought he was calling me, but after an awkward confused silence I realized what had happened. Needless to say, this is very bizarre and totally unacceptable. Imagine being in the middle of a personal conversation when your phone decides to call a random contact!!
-
-So, 2.0.1 is still looking pretty good.
 ]]></content>
   </entry>
   
