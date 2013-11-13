@@ -4,7 +4,7 @@
   <title><![CDATA[Tom Whipple]]></title>
   <link href="http://tomwhipple.com/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2013-11-13T09:20:21-08:00</updated>
+  <updated>2013-11-13T09:26:16-08:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -44,6 +44,8 @@
 <li><strong><a href="http://www.gnu.org/software/libgcrypt/">libgcrypt</a></strong> is an actively maintained, LGPL, general purpose crypto library. However, it is <em>only</em> a crypto library. It doesn&#8217;t handle keyring management and requires <em>much</em> more knowledge of crytpo on the part of the developer.</li>
 </ul>
 
+
+<p><em><a href="https://news.ycombinator.com/item?id=6726711">Hacker News discussion</a></em></p>
 ]]></content>
   </entry>
   
