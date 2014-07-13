@@ -4,7 +4,7 @@
   <title><![CDATA[Category: notes | Tom Whipple]]></title>
   <link href="http://tomwhipple.com/category/notes/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2013-11-13T21:56:36-08:00</updated>
+  <updated>2014-07-13T10:00:00-07:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -20,7 +20,7 @@
     <id>http://tomwhipple.com/2008/11/iphone-code-signing-problems</id>
     <content type="html"><![CDATA[<p><em>UPDATE: If you think it should work and it continues to cause problems, use the windows solution (i.e. reboot everything) and do a clean build. Here is a more current <a href="http://www.24100.net/2009/02/iphone-sdk-mobile-provisioning-0xe800003a-0xe8000001/">discussion</a>.</em></p>
 
-<p>As many developers have figured out by now, iPhone code signing is unnecessarily difficult. To make matters worse, it doesn't sound like Apple is very responsive to their developers. (In my case they have yet to get back to me after two days.) A couple of key points:</p>
+<p>As many developers have figured out by now, iPhone code signing is unnecessarily difficult. To make matters worse, it doesn&rsquo;t sound like Apple is very responsive to their developers. (In my case they have yet to get back to me after two days.) A couple of key points:</p>
 
 <ol>
     <li>In the main XCode screen, highlight Targets-&gt;AppName, and click the info button. Under Build, the "Code Signing Identity" must <em>exactly</em> match the certificate name from the certificate manager.An Open Question: Does this value get inherited from the project values?</li>

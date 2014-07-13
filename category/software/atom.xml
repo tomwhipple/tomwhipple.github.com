@@ -4,7 +4,7 @@
   <title><![CDATA[Category: software | Tom Whipple]]></title>
   <link href="http://tomwhipple.com/category/software/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2013-11-13T21:56:36-08:00</updated>
+  <updated>2014-07-13T10:00:00-07:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -20,11 +20,68 @@
     <id>http://tomwhipple.com/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk</id>
     <content type="html"><![CDATA[<p>The great people at <a href="http://testdroid.com">Testdroid</a> asked me to write a <a href="http://testdroid.com/testdroid/3524/guest-blog-post-using-testdroid-cloud-to-test-a-camera-sdk">guest post</a> about our experience with their product.</p>
 
-<blockquote><p>Developing an SDK that makes heavy use of the camera is different from typical Android app development. First, developing an SDK means that we have to think about ease of integration with other apps. For example, things like XML layouts and <code>R.drawable</code> are not available to us, since we don't want any unnecessary integration steps. Second, we are doing on-device computer vision, so we have a lot of highly optimized C and even some hand written assembly which must be compiled with the NDK and linked via JNI. And, if you've been fortunate to work with the Android native layer, you know that the toolchain is not quite as stable as the Java SDK. Finally, we're doing frame by frame processing with the camera. Obviously, the camera is a piece of hardware that has been implemented differently by each manufacturer, so there are inevitably some differences in behavior if it is accessed in a way that is not quite as intended.</p>
+<blockquote><p>Developing an SDK that makes heavy use of the camera is different from typical Android app development. First, developing an SDK means that we have to think about ease of integration with other apps. For example, things like XML layouts and <code>R.drawable</code> are not available to us, since we don&rsquo;t want any unnecessary integration steps. Second, we are doing on-device computer vision, so we have a lot of highly optimized C and even some hand written assembly which must be compiled with the NDK and linked via JNI. And, if you&rsquo;ve been fortunate to work with the Android native layer, you know that the toolchain is not quite as stable as the Java SDK. Finally, we&rsquo;re doing frame by frame processing with the camera. Obviously, the camera is a piece of hardware that has been implemented differently by each manufacturer, so there are inevitably some differences in behavior if it is accessed in a way that is not quite as intended.</p>
 
 <p><a href="http://testdroid.com/testdroid/3524/guest-blog-post-using-testdroid-cloud-to-test-a-camera-sdk">more</a></p></blockquote>
 
-<p>For small app developers, it is well worth the $100 or so to test on a bunch of different devices, even if you only run the tests once per major release. You'll wish you had done it sooner.</p>
+<p>For small app developers, it is well worth the $100 or so to test on a bunch of different devices, even if you only run the tests once per major release. You&rsquo;ll wish you had done it sooner.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Site updated...  Finally!]]></title>
+    <link href="http://tomwhipple.com/2012/11/updated-to-octopress/"/>
+    <updated>2012-11-03T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2012/11/updated-to-octopress</id>
+    <content type="html"><![CDATA[<p>Hey, I&rsquo;m still alive!</p>
+
+<p>Seriously though, the site has been updated to use <a href="http://octopress.org">Octopress</a>, and is how hosted on <a href="http://pages.github.com">GitHub pages</a>.</p>
+
+<p>Content is typically written in raw text (markdown). The framework generates static HTML from these files, which can be served on any web server. The result is that all the site admin headaches for systems like <a href="http://wordpress.org">Wordpress</a> are eliminated. And, if the site is served via GitHub, authentication is handled via SSH keys.</p>
+
+<p>Can it get any easier than that?</p>
+
+<p>BTW: If you&rsquo;re really curious, the source for this site is <a href="https://github.com/tomwhipple/octopress/tree/tomwhipple">on GitHub</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Flaws of Linux ...]]></title>
+    <link href="http://tomwhipple.com/2009/08/flaws-of-linux/"/>
+    <updated>2009-08-05T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2009/08/flaws-of-linux</id>
+    <content type="html"><![CDATA[<p>This, in a nutshell, is why Linux will <em>never</em> take over.</p>
+
+<p><a href="http://xkcd.com/619/"><img src="http://imgs.xkcd.com/comics/supported_features.png" height="326" width="324" /></a></p>
+
+<p>[<a href="http://xkcd.com/619/">xkcd.com</a>]</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Walki-Talki.com London tour available on the App Store]]></title>
+    <link href="http://tomwhipple.com/2009/07/walki-talkicom-london-tour-available-on-the-app-store/"/>
+    <updated>2009-07-03T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2009/07/walki-talkicom-london-tour-available-on-the-app-store</id>
+    <content type="html"><![CDATA[<p style="text-align: center"><img src="http://walki-talki.com/wordpress/wp-content/uploads/2009/07/london_iphone.png" title="London App screen shot" alt="London App screen shot" height="384" width="200" /></p>
+
+
+<p>Last night I learned that <a href="http://www.walki-talki.com">walki-talki.com</a>&rsquo;s walking tour of London was just approved by Apple for release and <a href="itms://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=320626439&amp;mt=8&amp;s=143441">posted to the App Store</a>. I won&rsquo;t re-post all of the details (<a href="http://walki-talki.com/wordpress/2009/07/04/walki-talki-releases-london-tour-for-the-iphone/">you can check them out here</a>). But I will say that it&rsquo;s about time!! Apple has taken nearly 2 weeks to approve this app, but has not yet approved our Amsterdam tour, despite it being submitted a month earlier! Anyway, enough griping. We are very pleased to be making progress.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[iPhone 2.1 software: FAIL]]></title>
+    <link href="http://tomwhipple.com/2008/09/iphone-21-software-fail/"/>
+    <updated>2008-09-13T00:00:00-07:00</updated>
+    <id>http://tomwhipple.com/2008/09/iphone-21-software-fail</id>
+    <content type="html"><![CDATA[<p>So far, the new iPhone software released on Friday doesn&rsquo;t look good. I&rsquo;ve had two problems in as many days.</p>
+
+<p>Yesterday, the bluetooth headset did not deactivate after a call ended until after I unlocked the phone with the slider dodad.</p>
+
+<p>But the worst happened today. I was driving down the PCH enjoying the day and a listening to a podcast when my phone decided to stop playing the podcast and dial a friend. At first I thought he was calling me, but after an awkward confused silence I realized what had happened. Needless to say, this is very bizarre and totally unacceptable. Imagine being in the middle of a personal conversation when your phone decides to call a random contact!!</p>
+
+<p>So, 2.0.1 is still looking pretty good.</p>
 ]]></content>
   </entry>
   

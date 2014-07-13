@@ -4,7 +4,7 @@
   <title><![CDATA[Category: programming | Tom Whipple]]></title>
   <link href="http://tomwhipple.com/category/programming/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2013-11-13T21:56:36-08:00</updated>
+  <updated>2014-07-13T10:00:00-07:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -20,11 +20,11 @@
     <id>http://tomwhipple.com/2012/11/guest-post-at-testdroid-using-testdroid-cloud-to-test-a-camera-sdk</id>
     <content type="html"><![CDATA[<p>The great people at <a href="http://testdroid.com">Testdroid</a> asked me to write a <a href="http://testdroid.com/testdroid/3524/guest-blog-post-using-testdroid-cloud-to-test-a-camera-sdk">guest post</a> about our experience with their product.</p>
 
-<blockquote><p>Developing an SDK that makes heavy use of the camera is different from typical Android app development. First, developing an SDK means that we have to think about ease of integration with other apps. For example, things like XML layouts and <code>R.drawable</code> are not available to us, since we don't want any unnecessary integration steps. Second, we are doing on-device computer vision, so we have a lot of highly optimized C and even some hand written assembly which must be compiled with the NDK and linked via JNI. And, if you've been fortunate to work with the Android native layer, you know that the toolchain is not quite as stable as the Java SDK. Finally, we're doing frame by frame processing with the camera. Obviously, the camera is a piece of hardware that has been implemented differently by each manufacturer, so there are inevitably some differences in behavior if it is accessed in a way that is not quite as intended.</p>
+<blockquote><p>Developing an SDK that makes heavy use of the camera is different from typical Android app development. First, developing an SDK means that we have to think about ease of integration with other apps. For example, things like XML layouts and <code>R.drawable</code> are not available to us, since we don&rsquo;t want any unnecessary integration steps. Second, we are doing on-device computer vision, so we have a lot of highly optimized C and even some hand written assembly which must be compiled with the NDK and linked via JNI. And, if you&rsquo;ve been fortunate to work with the Android native layer, you know that the toolchain is not quite as stable as the Java SDK. Finally, we&rsquo;re doing frame by frame processing with the camera. Obviously, the camera is a piece of hardware that has been implemented differently by each manufacturer, so there are inevitably some differences in behavior if it is accessed in a way that is not quite as intended.</p>
 
 <p><a href="http://testdroid.com/testdroid/3524/guest-blog-post-using-testdroid-cloud-to-test-a-camera-sdk">more</a></p></blockquote>
 
-<p>For small app developers, it is well worth the $100 or so to test on a bunch of different devices, even if you only run the tests once per major release. You'll wish you had done it sooner.</p>
+<p>For small app developers, it is well worth the $100 or so to test on a bunch of different devices, even if you only run the tests once per major release. You&rsquo;ll wish you had done it sooner.</p>
 ]]></content>
   </entry>
   
@@ -48,7 +48,7 @@
     <id>http://tomwhipple.com/2008/11/iphone-code-signing-problems</id>
     <content type="html"><![CDATA[<p><em>UPDATE: If you think it should work and it continues to cause problems, use the windows solution (i.e. reboot everything) and do a clean build. Here is a more current <a href="http://www.24100.net/2009/02/iphone-sdk-mobile-provisioning-0xe800003a-0xe8000001/">discussion</a>.</em></p>
 
-<p>As many developers have figured out by now, iPhone code signing is unnecessarily difficult. To make matters worse, it doesn't sound like Apple is very responsive to their developers. (In my case they have yet to get back to me after two days.) A couple of key points:</p>
+<p>As many developers have figured out by now, iPhone code signing is unnecessarily difficult. To make matters worse, it doesn&rsquo;t sound like Apple is very responsive to their developers. (In my case they have yet to get back to me after two days.) A couple of key points:</p>
 
 <ol>
     <li>In the main XCode screen, highlight Targets-&gt;AppName, and click the info button. Under Build, the "Code Signing Identity" must <em>exactly</em> match the certificate name from the certificate manager.An Open Question: Does this value get inherited from the project values?</li>

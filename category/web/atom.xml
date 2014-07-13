@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Web | Tom Whipple]]></title>
+  <title><![CDATA[Category: web | Tom Whipple]]></title>
   <link href="http://tomwhipple.com/category/web/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2013-11-13T21:56:36-08:00</updated>
+  <updated>2014-07-13T10:00:00-07:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -18,7 +18,7 @@
     <link href="http://tomwhipple.com/2012/11/updated-to-octopress/"/>
     <updated>2012-11-03T00:00:00-07:00</updated>
     <id>http://tomwhipple.com/2012/11/updated-to-octopress</id>
-    <content type="html"><![CDATA[<p>Hey, I'm still alive!</p>
+    <content type="html"><![CDATA[<p>Hey, I&rsquo;m still alive!</p>
 
 <p>Seriously though, the site has been updated to use <a href="http://octopress.org">Octopress</a>, and is how hosted on <a href="http://pages.github.com">GitHub pages</a>.</p>
 
@@ -26,7 +26,7 @@
 
 <p>Can it get any easier than that?</p>
 
-<p>BTW: If you're really curious, the source for this site is <a href="https://github.com/tomwhipple/octopress/tree/tomwhipple">on GitHub</a>.</p>
+<p>BTW: If you&rsquo;re really curious, the source for this site is <a href="https://github.com/tomwhipple/octopress/tree/tomwhipple">on GitHub</a>.</p>
 ]]></content>
   </entry>
   
@@ -37,7 +37,7 @@
     <id>http://tomwhipple.com/2009/08/on-search-engine-optimization</id>
     <content type="html"><![CDATA[<p>Search engine optimization (SEO) is important. (Duh!) But, being a developer I never spent much time thinking about these things. However, with my new ventures I am now in a position to actually care about search results.</p>
 
-<p>To that end, on Wednesday I attended a talk/networking event at Yahoo's Santa Monica office given by <a href="http://www.ninebyblue.com/">Vanessa Fox</a> of  <a href="http://janeandrobot.com">janeandrobot.com</a>. The discussion was informal, yet informative even for one who has just begun to be interested in SEO. I learned several things, many of which are available elsewhere on the web, but I will repeat them here in no particular order:</p>
+<p>To that end, on Wednesday I attended a talk/networking event at Yahoo&rsquo;s Santa Monica office given by <a href="http://www.ninebyblue.com/">Vanessa Fox</a> of  <a href="http://janeandrobot.com">janeandrobot.com</a>. The discussion was informal, yet informative even for one who has just begun to be interested in SEO. I learned several things, many of which are available elsewhere on the web, but I will repeat them here in no particular order:</p>
 
 <ul>
     <li>The guiding principle of SEO is similar to that of journalism: For each page, imagine that the user has just landed there and not seen any other pages of the site.</li>
