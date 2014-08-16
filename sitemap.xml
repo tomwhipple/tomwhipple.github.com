@@ -203,14 +203,14 @@
   
   <url>
     <loc>http://tomwhipple.com/archives/</loc>
-    <lastmod>2014-07-13T10:00:00-07:00</lastmod>
+    <lastmod>2014-08-16T07:35:23-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://tomwhipple.com/</loc>
-    <lastmod>2014-07-13T10:00:00-07:00</lastmod>
+    <lastmod>2014-08-16T07:35:23-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -236,7 +236,7 @@
   
   <url>
     <loc>http://tomwhipple.com/projects/explorations/basic-signal-processing-with-ipython-notebook.html</loc>
-    <lastmod>2013-01-27T19:25:1359343534Z</lastmod>
+    <lastmod>2014-08-16T07:34:1408199680Z</lastmod>
     <priority>0.6</priority>
   </url>
   
