@@ -4,7 +4,7 @@
   <title><![CDATA[Category: misc | Tom Whipple]]></title>
   <link href="http://tomwhipple.com/category/misc/atom.xml" rel="self"/>
   <link href="http://tomwhipple.com/"/>
-  <updated>2015-01-19T10:00:55-08:00</updated>
+  <updated>2015-03-29T21:18:05-07:00</updated>
   <id>http://tomwhipple.com/</id>
   <author>
     <name><![CDATA[Tom Whipple]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[What does an IT department say about a company?]]></title>
+    <link href="http://tomwhipple.com/2015/03/what-does-your-it-department-say-about-your-company/"/>
+    <updated>2015-03-29T20:52:43-07:00</updated>
+    <id>http://tomwhipple.com/2015/03/what-does-your-it-department-say-about-your-company</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been thinking about the proper role of an IT department in a tech company lately&hellip; Is it a trusted partner, helping unlock productivity of highly talented people? Or is it to keep mischevious employees on a short leash.</p>
+
+<p>The answer says a lot about the whole company.</p>
+
+<p>It comes down to this question: Do you trust your team? If you assume that everyone is genuinely striving to use their best judgment to advance your company&rsquo;s business, then the IT team is a key contributor to the shared outcome. They are the subject matter experts who&rsquo;s advice is valued and sought out by all employees. They keep up to date with the best tools &amp; practices, and are eager to adopt new technologies when they become available. Obviously, real threats, internal and external, do exist. So, IT must also have the capability to ensure that people can be held accountable for the judgments they make. In short, the working model is &ldquo;trust but verify&rdquo;.</p>
+
+<p>This is the kind of environment I want to work in.</p>
+
+<p>However, if you view your employees as soulless minions who can&rsquo;t be trusted to flip a light switch correctly, then the IT must adopt the centralized controlling role of an ever-present big brother. Every user&rsquo;s action must be scrutinized. No new application can be permitted without multiple levels of approval. If a new tool becomes available, agreements must be signed, audits must be completed, and at all costs PROCESS MUST BE FOLLOWED.</p>
+
+<p>Of course audits &amp; process have direct and indirect costs. Why is Enterprise software obscenely expensive? Here&rsquo;s a hint: enterprise software companies are good at two things: Process and sales. Absent: Actually producing well designed software.</p>
+
+<p>But, the indirect costs of the centralized approach can be even more severe. Technology companies rely on smart, creative people applying their creativity to the main challenges the business faces. High performing teams use the best available tools, changing rapidly as better tools become available.  But, if the menu of choices is limited to those selected by an overworked IT team with limited motivation to stay on top of the best available tools, otherwise productive teams are crippled before they even begin work.</p>
+
+<p>The working model here is &ldquo;trust no one.&rdquo; But, the logic here is circular. Otherwise productive energy is spent figuring out how to get normal work done. Sometimes that effort goes in to understanding &amp; compiling with over-burdensome process. But sometimes the process is so burdensome that it must be worked around. Of course that&rsquo;s &ldquo;outside of policy&rdquo; and further justification that users can&rsquo;t be trusted!</p>
+
+<p>This environment is toxic, and not somewhere I would want to work.</p>
+
+<p>So, think carefully: Which kind of IT department should your company have?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Etiquette for Recruiters]]></title>
@@ -78,22 +105,6 @@
 <p>What??</p>
 
 <p>Isn&rsquo;t it just easier to say &ldquo;KEEP OUT&rdquo; or &ldquo;NO TRESPASSING&rdquo;?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wow ... It's been a while]]></title>
-    <link href="http://tomwhipple.com/2008/06/wow-its-been-a-while/"/>
-    <updated>2008-06-11T00:00:00-07:00</updated>
-    <id>http://tomwhipple.com/2008/06/wow-its-been-a-while</id>
-    <content type="html"><![CDATA[<p>But, I&rsquo;m still alive.</p>
-
-<p>After my own server died a few months ago, I finally have my website moved over to laughingsquid.net. As far as I can tell everything is now back up and running.</p>
-
-<p align="center"> <a href="http://www.laughingsquid.com"><img src="http://www.laughingsquid.net/images/powered_white.gif" alt="Powered by Laughing Squid" width="150" height="50" border="0" /></a></p>
-
-
-<p>Most of the outage has been due to my own laziness. I haven&rsquo;t been motivated to keep the site up lately. But, Laughing Squid seems to have very responsive servers, which is far more than I can say about godaddy.com.</p>
 ]]></content>
   </entry>
   
