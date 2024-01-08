@@ -5,4 +5,4 @@
 layout: home
 ---
 
-I am currently [available for hire](/hire) for remote or hybrid opportunties near Boulder, CO. 
+I am currently [available for hire](/hire) for a remote or local software engineering leadership opportunty near Boulder, CO. 
