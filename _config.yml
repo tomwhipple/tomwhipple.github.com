@@ -28,6 +28,9 @@ url: "https://tomwhipple.com" # the base hostname & protocol for your site, e.g.
 github_username:  tomwhipple
 linkedin_username: tommwhipple
 
+since: 2006
+author: Tom Whipple
+
 # Build settings
 theme: minima
 plugins:
