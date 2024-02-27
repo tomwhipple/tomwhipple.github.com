@@ -11,3 +11,7 @@ The site [(source code)](https://github.com/tomwhipple/tomwhipple.github.com) is
 ## Old-school social media
 
 Hosting my own blog is more than just an early 2000's nostalgia trip; it means that there's no platform owner who will start requiring readers to sign up or ambush viewers with other popups halfway down the page. And, of course, I own the content.
+
+## 100% human authored, original content
+
+Everything here is written by me, Tom Whipple, a genuine human. :)

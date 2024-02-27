@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tom Whipple's Resume
+title: Hire Tom
 permalink: /hire/
 ---
 

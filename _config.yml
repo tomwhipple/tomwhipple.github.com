@@ -21,7 +21,8 @@
 title: Tom Whipple
 email: hire@tomwhipple.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Tom is a software engineering leader with more than 20 years of experience. 
+  Tom is a software engineering leader with more than 20 years of experience,
+  available for remote or local opportunities near Boulder, CO. 
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tomwhipple.com" # the base hostname & protocol for your site, e.g. http://example.com
