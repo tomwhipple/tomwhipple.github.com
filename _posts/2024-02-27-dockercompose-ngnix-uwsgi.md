@@ -88,7 +88,7 @@ Now that the above is complete, all that's left is to [configure docker compose]
     ports:
      - "80:80"
     environment:
-     - NGINX_HOST=mira.local
+     - NGINX_HOST=example.com
      - NGINX_PORT=80
 
 ```
