@@ -4,15 +4,29 @@ title: Hire Tom
 permalink: /hire/
 ---
 
-I'm a widely experienced software engineering leader looking for remote or hybrid opportunities near Boulder CO, USA.
+I'm a widely experienced software engineering leader available for remote or hybrid opportunities near Boulder CO, USA.
 
 Summary
 -------
 
-I've built software my entire life. I've worked on networking infrastructure, solar electric vehicle control, airborne RF systems, a computer vision SDK for mobile apps, payment processing for billions of dollars in transactions, moved money onto the blockchain, and more. That's meant that I've had to learn new technologies quickly as well as understand how to how to work well with people, including leading multiple teams, communicating effectively with executives at large enterprises, or consulting individually to small business customers.
+I've built software my entire life. I've worked on networking infrastructure, solar electric vehicle control, airborne RF systems, a computer vision SDK for mobile apps, payment processing for billions of dollars in transactions, moved money onto the blockchain, built AI-powered call quality analysis tools, and more. That's meant that I've had to learn new technologies quickly as well as understand how to work well with people, including leading multiple teams, communicating effectively with executives at large enterprises, or consulting individually to small business customers.
 
 Experience
 ----------
+
+### Software/AI Engineer — Freelance, [Luna Physical Therapy](https://getluna.com)
+
+#### March 2025 - March 2026
+
+- Developed tools to analyze performance of call center agents (both human and AI) to ensure that conversations met standards for excellent customer service, including ensuring information provided is consistent with a predefined knowledge base and used human provided feedback to fine-tune models to predict manual call QA scores.
+- Built ETL tools to import and extract data to/from AWS stack into healthcare formats like QRDA1 using Python & Elixir.
+- Provided SME advice to business stakeholders.
+
+### Software Engineering Manager, [Numa](https://numa.com)
+
+#### April 2024 - December 2024
+
+I led a team responsible for building automation tools for auto dealer's service departments, including a voice conversational scheduler.
 
 ### Software Engineer, [Meso](https://meso.network)
 
@@ -31,11 +45,9 @@ I led an organization of 20 people split into three teams, responsible for build
 - Grew transaction volume from the low millions to more than two billion dollars per month.
 - Collaborated across the company to drive reduction of API errors and lower spurious declines.
 - Grew a team of 4-5 engineers into a larger organization of 20 with external hiring and attracting talent from within the company.
-- Developed and launched a new GraphQL API.
 
 This meant that I personally:
 
-- Contributed directly to the Ruby on Rails codebase.
 - Worked with internal solutions engineers and met with end customers to ensure the right solution was implemented.
 - Presented to executive leadership to drive company wide focus on API quality.
 - Architected novel solutions to problems, two of which were patented.
@@ -91,7 +103,7 @@ I designed and created an open source application test suite for the 1.0 release
 - Migrated legacy servers from Windows to Linux.
 - Installed and maintained dialup and WAN equipment.
 - Consulted to customers.
-- Built software for customer support to automate account maintenance in PHP.
+- Built software for customer support to automate account maintenance.
 
 Education
 ---------
