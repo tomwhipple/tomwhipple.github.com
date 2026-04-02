@@ -4,7 +4,7 @@ title: Hire Tom
 permalink: /hire/
 ---
 
-I'm a widely experienced software engineering leader available for remote or hybrid opportunities near Boulder CO, USA.
+I'm a widely experienced software engineering leader available for remote or hybrid opportunities near Boulder CO, USA. - [Download resume (PDF)](/whipple_resume.pdf)
 
 Summary
 -------
@@ -79,46 +79,11 @@ NAVAIR is the Naval Air Systems Command, a civilian agency within the US Navy, r
 - Wrote real-time control software and VxWorks device driver to control a custom built RF signal generation HiL environment to test a rocket flight computer using C++.
 - Mentored recent college grad new hires.
 
-### Graduate Techincal Intern, [Intel](https://www.intel.com)
-
-#### Summer 2006
-
-I designed and created an open source application test suite for the 1.0 release of Linux utility [xdg-utils](https://www.freedesktop.org/wiki/Software/xdg-utils/). As part of the freedesktop.org Portland project, the xdg-utils are designed to provide a set of controls to providers of Linux software that work regardless of distribution or desktop environment using standard Linux shell tools. 
-
-###  Software Engineer, Nistevo
-
-#### 2000 - 2003
-
-- Developed and maintained a Makefile driven build and test system.
-- Developed a new test framework for QA.
-- Undertook a variety of build automation tasks in support of product integration.
-- Served as lead developer for business reporting.
-- Administered an enterprise integration package during the go-live period. Created automated monitoring and recovery tools in Perl.
-
-### System & Network Administrator, Znet
-
-#### 1997 - 2000
-
-- Installed and maintained web, mail, FTP, NNTP, and dialup services on Linux.
-- Migrated legacy servers from Windows to Linux.
-- Installed and maintained dialup and WAN equipment.
-- Consulted to customers.
-- Built software for customer support to automate account maintenance.
-
 Education
 ---------
 
-### Master of Science: Computer Science 
-
-#### 2005 - 2007
-
-My primary area of study was machine learning and computer vision, with additional coursework in robotics and embedded systems.
-
-### Bachelor of Science: Mathematics
-
-#### 2003 - 2005
-
-In addition to the full time coursework for a Math degree, I was a member of the 2nd place [2005 solar vehicle team](https://umnsvp.org/design-of-borealis-iii), serving as lead race strategist and embedded software developer.
+- M.S. Computer Science, University of Minnesota, 2007
+- B.S. Mathematics, University of Minnesota, 2005
 
 Patents
 -------
