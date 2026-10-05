@@ -2,9 +2,19 @@
 layout: page
 title: Hire Tom
 permalink: /hire/
+# Used only by _resume/build.rb for the PDF header.
+resume:
+  name: Tom Whipple
+  headline: Experienced AI/Software Engineering Leader
+  contact:
+    - Boulder, Colorado
+    - 612-220-1465
+    - mail@tomwhipple.com
+    - tomwhipple.com
 ---
 
 I'm a widely experienced software engineering leader available for remote or hybrid opportunities near Boulder CO, USA. - [Download resume (PDF)](/whipple_resume.pdf)
+{: .web-only}
 
 Summary
 -------

@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 vendor
 *.bak
+_resume/resume.html

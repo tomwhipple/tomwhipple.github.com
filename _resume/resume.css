@@ -1,0 +1,42 @@
+/* Print styles for the PDF resume. Edit freely; rebuild with _resume/build.rb */
+@page { size: letter; margin: 0.6in 0.7in; }
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Charter, "Bitstream Charter", Georgia, serif;
+  font-size: 10pt;
+  line-height: 1.35;
+  color: #1a1a1a;
+}
+a { color: inherit; text-decoration: none; }
+
+/* Header */
+header { text-align: center; padding-bottom: 6pt; border-bottom: 1.5pt solid #222; margin-bottom: 4pt; }
+header h1 { font-size: 22pt; margin: 0; letter-spacing: 0.02em; }
+header .headline { font-size: 11pt; color: #444; margin-top: 1pt; }
+header .contact { font-size: 9.5pt; color: #444; margin-top: 3pt; }
+header .contact span + span::before { content: "·"; margin: 0 0.6em; }
+
+/* Section headings (## / Setext) */
+h2 {
+  font-size: 10.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 0.5pt solid #999;
+  padding-bottom: 1pt;
+  margin: 12pt 0 5pt;
+  break-after: avoid;
+}
+
+/* Role: ### title on the left, #### dates on the right */
+.role { display: flex; justify-content: space-between; align-items: baseline; gap: 12pt; margin-top: 9pt; break-after: avoid; }
+.role h3 { font-size: 10.5pt; margin: 0; }
+.role h4 { font-size: 9.5pt; font-weight: normal; color: #555; margin: 0; white-space: nowrap; }
+
+p { margin: 3pt 0; }
+ul { margin: 2pt 0 4pt; padding-left: 14pt; }
+li { margin-bottom: 1.5pt; }
+li, p { break-inside: avoid; }
+
+.web-only { display: none; }
