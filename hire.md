@@ -28,7 +28,7 @@ Experience
 
 #### March 2025 – April 2026
 
-- Developed tools to analyze the performance of call center agents (both human and AI), ensuring that conversations met standards for excellent customer service and that the information provided was consistent with a predefined knowledge base.
+- Developed tools to analyze the performance of call center agents (both human and AI), ensuring that conversations met standards for excellent customer service and that the information provided was consistent with a predefined knowledge base. 
 - Used human-provided feedback to fine-tune models that predict manual call QA scores.
 - Built ETL tools in Python and Elixir to import and export data between the AWS stack and healthcare formats such as QRDA1.
 - Provided AI SME advice to business stakeholders.
